@@ -1,0 +1,4 @@
+covariate,gauged_n,ungauged_n,gauged_median,ungauged_median,gauged_iqr,ungauged_iqr,smd,magnitude
+rainfall_mm_at_point,358,265,163.0,171.8,125-194,122-204,0.066,negligible
+elevation_m,358,265,405.3,876.5,240-773,428-1044,-0.481,small
+basin_area_km2,358,265,5222.2,7207.8,3889-8924,3663-7416,-0.16,negligible

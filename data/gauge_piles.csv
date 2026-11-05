@@ -1,0 +1,359 @@
+EVENT_ID,huc8,pile,response,basin_name,huc4
+779122,15010007,POSITIVE,ephemeral_dry_to_flowing,Red Lake,1501
+1136406,15010007,POSITIVE,perennial,Red Lake,1501
+582460,15030101,NEGATIVE,perennial,Havasu-Mohave Lakes,1503
+582523,15030101,no_data,,Havasu-Mohave Lakes,1503
+582509,15030101,no_data,,Havasu-Mohave Lakes,1503
+582515,15030101,no_data,,Havasu-Mohave Lakes,1503
+584886,15030101,no_data,,Havasu-Mohave Lakes,1503
+594695,15030101,NEGATIVE,perennial,Havasu-Mohave Lakes,1503
+602799,15030101,no_data,,Havasu-Mohave Lakes,1503
+602800,15030101,no_data,,Havasu-Mohave Lakes,1503
+611580,15030101,NEGATIVE,perennial,Havasu-Mohave Lakes,1503
+644961,15030101,no_data,,Havasu-Mohave Lakes,1503
+646636,15030101,no_data,,Havasu-Mohave Lakes,1503
+646610,15030101,no_data,,Havasu-Mohave Lakes,1503
+649672,15030101,no_data,,Havasu-Mohave Lakes,1503
+649674,15030101,no_data,,Havasu-Mohave Lakes,1503
+655114,15030101,no_data,,Havasu-Mohave Lakes,1503
+655103,15030101,no_data,,Havasu-Mohave Lakes,1503
+655105,15030101,no_data,,Havasu-Mohave Lakes,1503
+707211,15030101,no_data,,Havasu-Mohave Lakes,1503
+707962,15030101,NEGATIVE,perennial,Havasu-Mohave Lakes,1503
+707965,15030101,NEGATIVE,perennial,Havasu-Mohave Lakes,1503
+714858,15030101,no_data,,Havasu-Mohave Lakes,1503
+716616,15030101,NEGATIVE,perennial,Havasu-Mohave Lakes,1503
+716597,15030101,no_data,,Havasu-Mohave Lakes,1503
+779351,15030101,NEGATIVE,perennial,Havasu-Mohave Lakes,1503
+866091,15030101,NEGATIVE,perennial,Havasu-Mohave Lakes,1503
+866075,15030101,no_data,,Havasu-Mohave Lakes,1503
+866078,15030101,no_data,,Havasu-Mohave Lakes,1503
+866082,15030101,no_data,,Havasu-Mohave Lakes,1503
+878070,15030101,POSITIVE,perennial,Havasu-Mohave Lakes,1503
+892297,15030101,NEGATIVE,perennial,Havasu-Mohave Lakes,1503
+975422,15030101,no_data,,Havasu-Mohave Lakes,1503
+976147,15030101,no_data,,Havasu-Mohave Lakes,1503
+981300,15030101,no_data,,Havasu-Mohave Lakes,1503
+1050049,15030101,POSITIVE,perennial,Havasu-Mohave Lakes,1503
+1050290,15030101,no_data,,Havasu-Mohave Lakes,1503
+1054743,15030101,POSITIVE,perennial,Havasu-Mohave Lakes,1503
+1054887,15030101,no_data,,Havasu-Mohave Lakes,1503
+1054921,15030101,POSITIVE,perennial,Havasu-Mohave Lakes,1503
+1055006,15030101,no_data,,Havasu-Mohave Lakes,1503
+1055256,15030101,no_data,,Havasu-Mohave Lakes,1503
+1090964,15030101,POSITIVE,perennial,Havasu-Mohave Lakes,1503
+1091438,15030101,POSITIVE,perennial,Havasu-Mohave Lakes,1503
+1090990,15030101,POSITIVE,perennial,Havasu-Mohave Lakes,1503
+1136420,15030101,NEGATIVE,perennial,Havasu-Mohave Lakes,1503
+1264912,15030101,no_data,,Havasu-Mohave Lakes,1503
+1264916,15030101,NEGATIVE,perennial,Havasu-Mohave Lakes,1503
+1264988,15030101,NEGATIVE,perennial,Havasu-Mohave Lakes,1503
+1264937,15030101,NEGATIVE,perennial,Havasu-Mohave Lakes,1503
+1264938,15030101,NEGATIVE,perennial,Havasu-Mohave Lakes,1503
+1264942,15030101,no_data,,Havasu-Mohave Lakes,1503
+1274034,15030101,NEGATIVE,dry_throughout,Havasu-Mohave Lakes,1503
+1295896,15030101,no_data,,Havasu-Mohave Lakes,1503
+582367,15030103,no_data,,Sacramento Wash,1503
+582449,15030103,no_data,,Sacramento Wash,1503
+582490,15030103,no_data,,Sacramento Wash,1503
+584818,15030103,no_data,,Sacramento Wash,1503
+602402,15030103,no_data,,Sacramento Wash,1503
+602828,15030103,no_data,,Sacramento Wash,1503
+611579,15030103,no_data,,Sacramento Wash,1503
+644962,15030103,no_data,,Sacramento Wash,1503
+649579,15030103,no_data,,Sacramento Wash,1503
+649885,15030103,no_data,,Sacramento Wash,1503
+662076,15030103,no_data,,Sacramento Wash,1503
+714852,15030103,no_data,,Sacramento Wash,1503
+715651,15030103,no_data,,Sacramento Wash,1503
+716588,15030103,no_data,,Sacramento Wash,1503
+773544,15030103,no_data,,Sacramento Wash,1503
+779108,15030103,no_data,,Sacramento Wash,1503
+779129,15030103,no_data,,Sacramento Wash,1503
+780073,15030103,no_data,,Sacramento Wash,1503
+780083,15030103,no_data,,Sacramento Wash,1503
+780087,15030103,no_data,,Sacramento Wash,1503
+780088,15030103,no_data,,Sacramento Wash,1503
+780089,15030103,no_data,,Sacramento Wash,1503
+814689,15030103,no_data,,Sacramento Wash,1503
+837644,15030103,no_data,,Sacramento Wash,1503
+839990,15030103,no_data,,Sacramento Wash,1503
+863942,15030103,no_data,,Sacramento Wash,1503
+863944,15030103,no_data,,Sacramento Wash,1503
+866081,15030103,no_data,,Sacramento Wash,1503
+869177,15030103,no_data,,Sacramento Wash,1503
+974610,15030103,no_data,,Sacramento Wash,1503
+975371,15030103,no_data,,Sacramento Wash,1503
+975412,15030103,no_data,,Sacramento Wash,1503
+976162,15030103,no_data,,Sacramento Wash,1503
+976187,15030103,no_data,,Sacramento Wash,1503
+976189,15030103,no_data,,Sacramento Wash,1503
+981257,15030103,no_data,,Sacramento Wash,1503
+1026432,15030103,no_data,,Sacramento Wash,1503
+1050033,15030103,no_data,,Sacramento Wash,1503
+1050043,15030103,no_data,,Sacramento Wash,1503
+1050203,15030103,no_data,,Sacramento Wash,1503
+1050209,15030103,no_data,,Sacramento Wash,1503
+1050217,15030103,no_data,,Sacramento Wash,1503
+1050235,15030103,no_data,,Sacramento Wash,1503
+1050250,15030103,no_data,,Sacramento Wash,1503
+1050261,15030103,no_data,,Sacramento Wash,1503
+1054303,15030103,no_data,,Sacramento Wash,1503
+1054308,15030103,no_data,,Sacramento Wash,1503
+1054327,15030103,no_data,,Sacramento Wash,1503
+1054332,15030103,no_data,,Sacramento Wash,1503
+1054734,15030103,no_data,,Sacramento Wash,1503
+1054812,15030103,no_data,,Sacramento Wash,1503
+1054837,15030103,no_data,,Sacramento Wash,1503
+1054838,15030103,no_data,,Sacramento Wash,1503
+1054854,15030103,no_data,,Sacramento Wash,1503
+1054871,15030103,no_data,,Sacramento Wash,1503
+1054998,15030103,no_data,,Sacramento Wash,1503
+1055007,15030103,no_data,,Sacramento Wash,1503
+1055199,15030103,no_data,,Sacramento Wash,1503
+1055225,15030103,no_data,,Sacramento Wash,1503
+1058472,15030103,no_data,,Sacramento Wash,1503
+1058486,15030103,no_data,,Sacramento Wash,1503
+1058517,15030103,no_data,,Sacramento Wash,1503
+1058933,15030103,no_data,,Sacramento Wash,1503
+1058931,15030103,no_data,,Sacramento Wash,1503
+1058958,15030103,no_data,,Sacramento Wash,1503
+1136411,15030103,no_data,,Sacramento Wash,1503
+1142100,15030103,no_data,,Sacramento Wash,1503
+1142101,15030103,no_data,,Sacramento Wash,1503
+1295888,15030103,no_data,,Sacramento Wash,1503
+1295946,15030103,no_data,,Sacramento Wash,1503
+600070,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+643206,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+647213,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+708360,15070101,NEGATIVE,dry_throughout,Lower Gila-Painted Rock Reservoir,1507
+708649,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+709823,15070101,POSITIVE,perennial,Lower Gila-Painted Rock Reservoir,1507
+712281,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+757853,15070101,NEGATIVE,dry_throughout,Lower Gila-Painted Rock Reservoir,1507
+760668,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+763363,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+780098,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+780780,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+780085,15070101,NEGATIVE,dry_throughout,Lower Gila-Painted Rock Reservoir,1507
+780093,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+780103,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+781481,15070101,POSITIVE,ephemeral_dry_to_flowing,Lower Gila-Painted Rock Reservoir,1507
+781648,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+781646,15070101,POSITIVE,ephemeral_dry_to_flowing,Lower Gila-Painted Rock Reservoir,1507
+781647,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+781652,15070101,POSITIVE,ephemeral_dry_to_flowing,Lower Gila-Painted Rock Reservoir,1507
+848890,15070101,NEGATIVE,dry_throughout,Lower Gila-Painted Rock Reservoir,1507
+848896,15070101,NEGATIVE,dry_throughout,Lower Gila-Painted Rock Reservoir,1507
+849923,15070101,NEGATIVE,dry_throughout,Lower Gila-Painted Rock Reservoir,1507
+860223,15070101,NEGATIVE,dry_throughout,Lower Gila-Painted Rock Reservoir,1507
+872344,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+904685,15070101,NEGATIVE,dry_throughout,Lower Gila-Painted Rock Reservoir,1507
+911449,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+912700,15070101,NEGATIVE,dry_throughout,Lower Gila-Painted Rock Reservoir,1507
+973320,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+976259,15070101,NEGATIVE,dry_throughout,Lower Gila-Painted Rock Reservoir,1507
+976261,15070101,POSITIVE,perennial,Lower Gila-Painted Rock Reservoir,1507
+976566,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+983830,15070101,NEGATIVE,dry_throughout,Lower Gila-Painted Rock Reservoir,1507
+982526,15070101,NEGATIVE,dry_throughout,Lower Gila-Painted Rock Reservoir,1507
+985629,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+1046734,15070101,NEGATIVE,dry_throughout,Lower Gila-Painted Rock Reservoir,1507
+1046742,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+1052204,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+1054056,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+1056468,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+1056551,15070101,NEGATIVE,perennial,Lower Gila-Painted Rock Reservoir,1507
+1061367,15070101,NEGATIVE,dry_throughout,Lower Gila-Painted Rock Reservoir,1507
+1061364,15070101,NEGATIVE,dry_throughout,Lower Gila-Painted Rock Reservoir,1507
+1061209,15070101,NEGATIVE,dry_throughout,Lower Gila-Painted Rock Reservoir,1507
+1061365,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+1061335,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+1202862,15070101,NEGATIVE,perennial,Lower Gila-Painted Rock Reservoir,1507
+1202863,15070101,POSITIVE,perennial,Lower Gila-Painted Rock Reservoir,1507
+1261349,15070101,NEGATIVE,dry_throughout,Lower Gila-Painted Rock Reservoir,1507
+1289234,15070101,NEGATIVE,dry_throughout,Lower Gila-Painted Rock Reservoir,1507
+1294816,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+1296248,15070101,NEGATIVE,dry_throughout,Lower Gila-Painted Rock Reservoir,1507
+1296323,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+1296252,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+1296253,15070101,no_data,,Lower Gila-Painted Rock Reservoir,1507
+1296299,15070101,NEGATIVE,dry_throughout,Lower Gila-Painted Rock Reservoir,1507
+582383,18090208,NEGATIVE,dry_throughout,Mojave,1809
+596462,18090208,NEGATIVE,dry_throughout,Mojave,1809
+596640,18090208,no_data,,Mojave,1809
+596639,18090208,NEGATIVE,dry_throughout,Mojave,1809
+584864,18090208,POSITIVE,ephemeral_dry_to_flowing,Mojave,1809
+602872,18090208,NEGATIVE,dry_throughout,Mojave,1809
+646620,18090208,NEGATIVE,dry_throughout,Mojave,1809
+646621,18090208,NEGATIVE,dry_throughout,Mojave,1809
+652422,18090208,NEGATIVE,dry_throughout,Mojave,1809
+773549,18090208,NEGATIVE,dry_throughout,Mojave,1809
+782683,18090208,NEGATIVE,dry_throughout,Mojave,1809
+793934,18090208,NEGATIVE,dry_throughout,Mojave,1809
+805130,18090208,POSITIVE,ephemeral_dry_to_flowing,Mojave,1809
+975416,18090208,NEGATIVE,dry_throughout,Mojave,1809
+975420,18090208,NEGATIVE,dry_throughout,Mojave,1809
+1049825,18090208,NEGATIVE,dry_throughout,Mojave,1809
+1049826,18090208,NEGATIVE,dry_throughout,Mojave,1809
+1040805,18090208,NEGATIVE,dry_throughout,Mojave,1809
+1056856,18090208,no_data,,Mojave,1809
+1058547,18090208,POSITIVE,ephemeral_dry_to_flowing,Mojave,1809
+1058550,18090208,NEGATIVE,dry_throughout,Mojave,1809
+1055789,18090208,POSITIVE,ephemeral_dry_to_flowing,Mojave,1809
+1091427,18090208,POSITIVE,ephemeral_dry_to_flowing,Mojave,1809
+1106314,18090208,POSITIVE,perennial,Mojave,1809
+1099767,18090208,NEGATIVE,perennial,Mojave,1809
+1129824,18090208,no_data,,Mojave,1809
+1138484,18090208,POSITIVE,ephemeral_dry_to_flowing,Mojave,1809
+1142179,18090208,POSITIVE,ephemeral_dry_to_flowing,Mojave,1809
+1162701,18090208,POSITIVE,perennial,Mojave,1809
+1205745,18090208,POSITIVE,ephemeral_dry_to_flowing,Mojave,1809
+1293228,18090208,NEGATIVE,dry_throughout,Mojave,1809
+1293229,18090208,NEGATIVE,dry_throughout,Mojave,1809
+1295916,18090208,POSITIVE,ephemeral_dry_to_flowing,Mojave,1809
+1295922,18090208,NEGATIVE,dry_throughout,Mojave,1809
+1296798,18090208,POSITIVE,ephemeral_dry_to_flowing,Mojave,1809
+1296799,18090208,POSITIVE,ephemeral_dry_to_flowing,Mojave,1809
+582514,15030104,no_data,,Imperial Reservoir,1503
+582861,15030104,NEGATIVE,perennial,Imperial Reservoir,1503
+594799,15030104,no_data,,Imperial Reservoir,1503
+649594,15030104,no_data,,Imperial Reservoir,1503
+649646,15030104,no_data,,Imperial Reservoir,1503
+649678,15030104,no_data,,Imperial Reservoir,1503
+655110,15030104,no_data,,Imperial Reservoir,1503
+664564,15030104,no_data,,Imperial Reservoir,1503
+709567,15030104,no_data,,Imperial Reservoir,1503
+714868,15030104,no_data,,Imperial Reservoir,1503
+714532,15030104,NEGATIVE,perennial,Imperial Reservoir,1503
+716612,15030104,no_data,,Imperial Reservoir,1503
+714975,15030104,POSITIVE,perennial,Imperial Reservoir,1503
+714976,15030104,POSITIVE,perennial,Imperial Reservoir,1503
+773440,15030104,NEGATIVE,perennial,Imperial Reservoir,1503
+779149,15030104,no_data,,Imperial Reservoir,1503
+779384,15030104,no_data,,Imperial Reservoir,1503
+780105,15030104,no_data,,Imperial Reservoir,1503
+780115,15030104,no_data,,Imperial Reservoir,1503
+849016,15030104,no_data,,Imperial Reservoir,1503
+849018,15030104,no_data,,Imperial Reservoir,1503
+852823,15030104,POSITIVE,perennial,Imperial Reservoir,1503
+859978,15030104,no_data,,Imperial Reservoir,1503
+863323,15030104,POSITIVE,perennial,Imperial Reservoir,1503
+871962,15030104,POSITIVE,perennial,Imperial Reservoir,1503
+976646,15030104,NEGATIVE,perennial,Imperial Reservoir,1503
+981461,15030104,POSITIVE,perennial,Imperial Reservoir,1503
+983876,15030104,POSITIVE,perennial,Imperial Reservoir,1503
+983877,15030104,POSITIVE,perennial,Imperial Reservoir,1503
+1050300,15030104,no_data,,Imperial Reservoir,1503
+1054902,15030104,no_data,,Imperial Reservoir,1503
+1054913,15030104,no_data,,Imperial Reservoir,1503
+1054030,15030104,NEGATIVE,perennial,Imperial Reservoir,1503
+1055259,15030104,no_data,,Imperial Reservoir,1503
+1055265,15030104,no_data,,Imperial Reservoir,1503
+1061340,15030104,no_data,,Imperial Reservoir,1503
+1061037,15030104,POSITIVE,perennial,Imperial Reservoir,1503
+1137077,15030104,no_data,,Imperial Reservoir,1503
+1141289,15030104,POSITIVE,perennial,Imperial Reservoir,1503
+1140907,15030104,POSITIVE,perennial,Imperial Reservoir,1503
+1141005,15030104,POSITIVE,perennial,Imperial Reservoir,1503
+1141046,15030104,NEGATIVE,perennial,Imperial Reservoir,1503
+1142165,15030104,no_data,,Imperial Reservoir,1503
+1142336,15030104,no_data,,Imperial Reservoir,1503
+1142354,15030104,no_data,,Imperial Reservoir,1503
+1142359,15030104,no_data,,Imperial Reservoir,1503
+1264948,15030104,no_data,,Imperial Reservoir,1503
+1261507,15030104,no_data,,Imperial Reservoir,1503
+1293020,15030104,NEGATIVE,perennial,Imperial Reservoir,1503
+1293021,15030104,NEGATIVE,perennial,Imperial Reservoir,1503
+1296002,15030104,no_data,,Imperial Reservoir,1503
+582374,18090203,no_data,,Death Valley-Lower Amargosa,1809
+582388,18090203,no_data,,Death Valley-Lower Amargosa,1809
+582389,18090203,no_data,,Death Valley-Lower Amargosa,1809
+582398,18090203,no_data,,Death Valley-Lower Amargosa,1809
+602844,18090203,no_data,,Death Valley-Lower Amargosa,1809
+602846,18090203,no_data,,Death Valley-Lower Amargosa,1809
+646625,18090203,no_data,,Death Valley-Lower Amargosa,1809
+714864,18090203,no_data,,Death Valley-Lower Amargosa,1809
+805385,18090203,no_data,,Death Valley-Lower Amargosa,1809
+1050239,18090203,no_data,,Death Valley-Lower Amargosa,1809
+1058473,18090203,no_data,,Death Valley-Lower Amargosa,1809
+1099765,18090203,no_data,,Death Valley-Lower Amargosa,1809
+1142326,18090203,no_data,,Death Valley-Lower Amargosa,1809
+1315040,18090203,no_data,,Death Valley-Lower Amargosa,1809
+602814,15010015,no_data,,Las Vegas Wash,1501
+644975,15010015,POSITIVE,perennial,Las Vegas Wash,1501
+649653,15010015,no_data,,Las Vegas Wash,1501
+649933,15010015,POSITIVE,perennial,Las Vegas Wash,1501
+709573,15010015,no_data,,Las Vegas Wash,1501
+714877,15010015,POSITIVE,perennial,Las Vegas Wash,1501
+715690,15010015,no_data,,Las Vegas Wash,1501
+729175,15010015,POSITIVE,perennial,Las Vegas Wash,1501
+729193,15010015,POSITIVE,perennial,Las Vegas Wash,1501
+774148,15010015,NEGATIVE,perennial,Las Vegas Wash,1501
+774156,15010015,no_data,,Las Vegas Wash,1501
+805435,15010015,POSITIVE,perennial,Las Vegas Wash,1501
+814653,15010015,POSITIVE,perennial,Las Vegas Wash,1501
+814654,15010015,POSITIVE,perennial,Las Vegas Wash,1501
+911562,15010015,no_data,,Las Vegas Wash,1501
+977107,15010015,POSITIVE,perennial,Las Vegas Wash,1501
+996352,15010015,NEGATIVE,perennial,Las Vegas Wash,1501
+1050053,15010015,POSITIVE,perennial,Las Vegas Wash,1501
+1050055,15010015,POSITIVE,perennial,Las Vegas Wash,1501
+1050059,15010015,POSITIVE,perennial,Las Vegas Wash,1501
+1050226,15010015,POSITIVE,perennial,Las Vegas Wash,1501
+1054414,15010015,POSITIVE,perennial,Las Vegas Wash,1501
+1058592,15010015,no_data,,Las Vegas Wash,1501
+1058578,15010015,POSITIVE,perennial,Las Vegas Wash,1501
+1091437,15010015,NEGATIVE,perennial,Las Vegas Wash,1501
+1135944,15010015,POSITIVE,perennial,Las Vegas Wash,1501
+1135945,15010015,POSITIVE,perennial,Las Vegas Wash,1501
+1141941,15010015,POSITIVE,perennial,Las Vegas Wash,1501
+1295994,15010015,POSITIVE,perennial,Las Vegas Wash,1501
+596588,18100201,POSITIVE,perennial,Whitewater River,1810
+782676,18100201,no_data,,Whitewater River,1810
+787920,18100201,no_data,,Whitewater River,1810
+791363,18100201,POSITIVE,perennial,Whitewater River,1810
+790770,18100201,POSITIVE,ephemeral_dry_to_flowing,Whitewater River,1810
+790768,18100201,POSITIVE,ephemeral_dry_to_flowing,Whitewater River,1810
+858096,18100201,NEGATIVE,dry_throughout,Whitewater River,1810
+866207,18100201,no_data,,Whitewater River,1810
+976699,18100201,NEGATIVE,dry_throughout,Whitewater River,1810
+976704,18100201,NEGATIVE,dry_throughout,Whitewater River,1810
+975196,18100201,NEGATIVE,dry_throughout,Whitewater River,1810
+1024638,18100201,no_data,,Whitewater River,1810
+1040822,18100201,NEGATIVE,dry_throughout,Whitewater River,1810
+1064095,18100201,POSITIVE,ephemeral_dry_to_flowing,Whitewater River,1810
+1068275,18100201,NEGATIVE,dry_throughout,Whitewater River,1810
+1068504,18100201,NEGATIVE,dry_throughout,Whitewater River,1810
+1129806,18100201,POSITIVE,ephemeral_dry_to_flowing,Whitewater River,1810
+1129807,18100201,no_data,,Whitewater River,1810
+1129816,18100201,no_data,,Whitewater River,1810
+1129817,18100201,no_data,,Whitewater River,1810
+1140333,18100201,POSITIVE,ephemeral_dry_to_flowing,Whitewater River,1810
+1140334,18100201,POSITIVE,perennial,Whitewater River,1810
+1140335,18100201,no_data,,Whitewater River,1810
+1152667,18100201,NEGATIVE,dry_throughout,Whitewater River,1810
+1206986,18100201,POSITIVE,ephemeral_dry_to_flowing,Whitewater River,1810
+709830,15070104,POSITIVE,ephemeral_dry_to_flowing,Centennial Wash,1507
+710136,15070104,POSITIVE,ephemeral_dry_to_flowing,Centennial Wash,1507
+760393,15070104,NEGATIVE,perennial,Centennial Wash,1507
+850965,15070104,no_data,,Centennial Wash,1507
+859996,15070104,POSITIVE,ephemeral_dry_to_flowing,Centennial Wash,1507
+860201,15070104,POSITIVE,ephemeral_dry_to_flowing,Centennial Wash,1507
+872057,15070104,POSITIVE,ephemeral_dry_to_flowing,Centennial Wash,1507
+985611,15070104,NEGATIVE,dry_throughout,Centennial Wash,1507
+1047193,15070104,no_data,,Centennial Wash,1507
+1048657,15070104,NEGATIVE,perennial,Centennial Wash,1507
+1052363,15070104,NEGATIVE,perennial,Centennial Wash,1507
+1053717,15070104,POSITIVE,ephemeral_dry_to_flowing,Centennial Wash,1507
+1054333,15070104,NEGATIVE,perennial,Centennial Wash,1507
+1056554,15070104,NEGATIVE,perennial,Centennial Wash,1507
+1061108,15070104,POSITIVE,ephemeral_dry_to_flowing,Centennial Wash,1507
+1061293,15070104,no_data,,Centennial Wash,1507
+1061337,15070104,POSITIVE,perennial,Centennial Wash,1507
+1061339,15070104,POSITIVE,ephemeral_dry_to_flowing,Centennial Wash,1507
+1061338,15070104,POSITIVE,ephemeral_dry_to_flowing,Centennial Wash,1507
+1205678,15070104,NEGATIVE,perennial,Centennial Wash,1507
+1298956,15070104,NEGATIVE,perennial,Centennial Wash,1507
+1299037,15070104,NEGATIVE,perennial,Centennial Wash,1507
+1299036,15070104,NEGATIVE,perennial,Centennial Wash,1507
