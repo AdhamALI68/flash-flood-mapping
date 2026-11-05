@@ -1,0 +1,10 @@
+{
+ "n_events_used": 210,
+ "n_events_skipped": 0,
+ "n_pixels": 38144255,
+ "base_rate": 0.0030647603420226716,
+ "auc_coh_drop": 0.7642245345387337,
+ "auc_amp_change_raw": 0.4382803670250141,
+ "auc_amp_change_as_darkness": 0.561719632974986,
+ "auc_combined_no_fit": 0.7064678428920335
+}
