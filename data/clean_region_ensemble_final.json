@@ -1,0 +1,13 @@
+{
+ "tags": [
+  "clean_region",
+  "clean_region_seed1",
+  "clean_region_seed2"
+ ],
+ "auc": 0.7228681001980561,
+ "ap": 0.10091660237930629,
+ "recall": 0.32369292008699607,
+ "precision": 0.10826407944793684,
+ "accuracy": 0.842277786163676,
+ "cutoff": 0.2435501323388327
+}

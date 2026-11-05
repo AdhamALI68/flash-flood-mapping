@@ -1,0 +1,496 @@
+{
+ "tag": "clean_random",
+ "groups": [
+  "terrain",
+  "basin",
+  "rain",
+  "rain_routed",
+  "soil",
+  "landcover"
+ ],
+ "channels": [
+  "elev_mean_10m",
+  "elev_min_10m",
+  "microrelief_10m",
+  "roughness_10m",
+  "slope_10m",
+  "basin_facc",
+  "basin_hand",
+  "basin_slope",
+  "basin_spi",
+  "basin_twi",
+  "rain_1h_peak",
+  "rain_24h",
+  "rain_ante48h",
+  "rain_ante72h",
+  "soil_bd",
+  "soil_clay",
+  "soil_ksat",
+  "soil_sand",
+  "lc_class",
+  "lc_cropland",
+  "lc_water",
+  "catchment_area_km2",
+  "rain_1h_over_ksat_upstream_mean",
+  "rain_1h_upstream_depth_mm",
+  "rain_1h_upstream_vol_m3",
+  "rain_24h_upstream_depth_mm",
+  "rain_24h_upstream_vol_m3",
+  "rain_cover_frac",
+  "runoff_1h_upstream_depth_mm",
+  "runoff_1h_upstream_vol_m3"
+ ],
+ "test_regions": [
+  "1606",
+  "1809"
+ ],
+ "val_regions": [
+  "1507"
+ ],
+ "threshold": 0.15,
+ "rung": "10",
+ "params": 4374242,
+ "history": [
+  {
+   "epoch": 1,
+   "loss": 0.5141,
+   "val_auc": 0.6483,
+   "val_pixel_auc": 0.7534
+  },
+  {
+   "epoch": 2,
+   "loss": 0.4631,
+   "val_auc": 0.6576,
+   "val_pixel_auc": 0.7786
+  },
+  {
+   "epoch": 3,
+   "loss": 0.4588,
+   "val_auc": 0.6573,
+   "val_pixel_auc": 0.7824
+  },
+  {
+   "epoch": 4,
+   "loss": 0.4505,
+   "val_auc": 0.6688,
+   "val_pixel_auc": 0.7898
+  },
+  {
+   "epoch": 5,
+   "loss": 0.448,
+   "val_auc": 0.669,
+   "val_pixel_auc": 0.7953
+  },
+  {
+   "epoch": 6,
+   "loss": 0.4444,
+   "val_auc": 0.6655,
+   "val_pixel_auc": 0.7882
+  },
+  {
+   "epoch": 7,
+   "loss": 0.4403,
+   "val_auc": 0.6692,
+   "val_pixel_auc": 0.7898
+  },
+  {
+   "epoch": 8,
+   "loss": 0.4387,
+   "val_auc": 0.67,
+   "val_pixel_auc": 0.7931
+  },
+  {
+   "epoch": 9,
+   "loss": 0.4375,
+   "val_auc": 0.6739,
+   "val_pixel_auc": 0.7963
+  },
+  {
+   "epoch": 10,
+   "loss": 0.4355,
+   "val_auc": 0.6721,
+   "val_pixel_auc": 0.8029
+  },
+  {
+   "epoch": 11,
+   "loss": 0.4337,
+   "val_auc": 0.6767,
+   "val_pixel_auc": 0.8071
+  },
+  {
+   "epoch": 12,
+   "loss": 0.4324,
+   "val_auc": 0.6791,
+   "val_pixel_auc": 0.8042
+  },
+  {
+   "epoch": 13,
+   "loss": 0.4294,
+   "val_auc": 0.6781,
+   "val_pixel_auc": 0.8101
+  },
+  {
+   "epoch": 14,
+   "loss": 0.4289,
+   "val_auc": 0.683,
+   "val_pixel_auc": 0.809
+  },
+  {
+   "epoch": 15,
+   "loss": 0.4247,
+   "val_auc": 0.6824,
+   "val_pixel_auc": 0.8052
+  },
+  {
+   "epoch": 16,
+   "loss": 0.4238,
+   "val_auc": 0.6825,
+   "val_pixel_auc": 0.8067
+  },
+  {
+   "epoch": 17,
+   "loss": 0.4202,
+   "val_auc": 0.6795,
+   "val_pixel_auc": 0.8119
+  },
+  {
+   "epoch": 18,
+   "loss": 0.4217,
+   "val_auc": 0.6815,
+   "val_pixel_auc": 0.8176
+  },
+  {
+   "epoch": 19,
+   "loss": 0.4183,
+   "val_auc": 0.6851,
+   "val_pixel_auc": 0.8175
+  },
+  {
+   "epoch": 20,
+   "loss": 0.4167,
+   "val_auc": 0.683,
+   "val_pixel_auc": 0.8084
+  },
+  {
+   "epoch": 21,
+   "loss": 0.4174,
+   "val_auc": 0.6839,
+   "val_pixel_auc": 0.8187
+  },
+  {
+   "epoch": 22,
+   "loss": 0.4133,
+   "val_auc": 0.6816,
+   "val_pixel_auc": 0.8183
+  },
+  {
+   "epoch": 23,
+   "loss": 0.4133,
+   "val_auc": 0.6823,
+   "val_pixel_auc": 0.8182
+  },
+  {
+   "epoch": 24,
+   "loss": 0.4107,
+   "val_auc": 0.684,
+   "val_pixel_auc": 0.8209
+  },
+  {
+   "epoch": 25,
+   "loss": 0.408,
+   "val_auc": 0.6846,
+   "val_pixel_auc": 0.8208
+  },
+  {
+   "epoch": 26,
+   "loss": 0.4094,
+   "val_auc": 0.6867,
+   "val_pixel_auc": 0.82
+  },
+  {
+   "epoch": 27,
+   "loss": 0.4062,
+   "val_auc": 0.6903,
+   "val_pixel_auc": 0.8289
+  },
+  {
+   "epoch": 28,
+   "loss": 0.4056,
+   "val_auc": 0.6895,
+   "val_pixel_auc": 0.826
+  },
+  {
+   "epoch": 29,
+   "loss": 0.4057,
+   "val_auc": 0.6848,
+   "val_pixel_auc": 0.8287
+  },
+  {
+   "epoch": 30,
+   "loss": 0.4002,
+   "val_auc": 0.6853,
+   "val_pixel_auc": 0.8226
+  },
+  {
+   "epoch": 31,
+   "loss": 0.3989,
+   "val_auc": 0.6858,
+   "val_pixel_auc": 0.8276
+  },
+  {
+   "epoch": 32,
+   "loss": 0.3974,
+   "val_auc": 0.6891,
+   "val_pixel_auc": 0.8237
+  },
+  {
+   "epoch": 33,
+   "loss": 0.3957,
+   "val_auc": 0.6822,
+   "val_pixel_auc": 0.8312
+  },
+  {
+   "epoch": 34,
+   "loss": 0.3955,
+   "val_auc": 0.6796,
+   "val_pixel_auc": 0.828
+  },
+  {
+   "epoch": 35,
+   "loss": 0.3971,
+   "val_auc": 0.6833,
+   "val_pixel_auc": 0.819
+  },
+  {
+   "epoch": 36,
+   "loss": 0.3898,
+   "val_auc": 0.6853,
+   "val_pixel_auc": 0.8291
+  },
+  {
+   "epoch": 37,
+   "loss": 0.3919,
+   "val_auc": 0.6864,
+   "val_pixel_auc": 0.8257
+  },
+  {
+   "epoch": 38,
+   "loss": 0.3904,
+   "val_auc": 0.6874,
+   "val_pixel_auc": 0.8341
+  },
+  {
+   "epoch": 39,
+   "loss": 0.386,
+   "val_auc": 0.6816,
+   "val_pixel_auc": 0.8287
+  },
+  {
+   "epoch": 40,
+   "loss": 0.3841,
+   "val_auc": 0.6871,
+   "val_pixel_auc": 0.8344
+  },
+  {
+   "epoch": 41,
+   "loss": 0.3837,
+   "val_auc": 0.6848,
+   "val_pixel_auc": 0.8344
+  },
+  {
+   "epoch": 42,
+   "loss": 0.3811,
+   "val_auc": 0.6844,
+   "val_pixel_auc": 0.8311
+  },
+  {
+   "epoch": 43,
+   "loss": 0.3772,
+   "val_auc": 0.6858,
+   "val_pixel_auc": 0.8359
+  },
+  {
+   "epoch": 44,
+   "loss": 0.379,
+   "val_auc": 0.6816,
+   "val_pixel_auc": 0.8386
+  },
+  {
+   "epoch": 45,
+   "loss": 0.3734,
+   "val_auc": 0.6854,
+   "val_pixel_auc": 0.8342
+  },
+  {
+   "epoch": 46,
+   "loss": 0.3748,
+   "val_auc": 0.6842,
+   "val_pixel_auc": 0.837
+  },
+  {
+   "epoch": 47,
+   "loss": 0.3715,
+   "val_auc": 0.6858,
+   "val_pixel_auc": 0.8346
+  },
+  {
+   "epoch": 48,
+   "loss": 0.3717,
+   "val_auc": 0.685,
+   "val_pixel_auc": 0.8348
+  },
+  {
+   "epoch": 49,
+   "loss": 0.3707,
+   "val_auc": 0.6855,
+   "val_pixel_auc": 0.8386
+  },
+  {
+   "epoch": 50,
+   "loss": 0.3666,
+   "val_auc": 0.6853,
+   "val_pixel_auc": 0.8386
+  },
+  {
+   "epoch": 51,
+   "loss": 0.3689,
+   "val_auc": 0.6815,
+   "val_pixel_auc": 0.8361
+  },
+  {
+   "epoch": 52,
+   "loss": 0.3632,
+   "val_auc": 0.6824,
+   "val_pixel_auc": 0.8405
+  },
+  {
+   "epoch": 53,
+   "loss": 0.3602,
+   "val_auc": 0.6834,
+   "val_pixel_auc": 0.8407
+  },
+  {
+   "epoch": 54,
+   "loss": 0.3574,
+   "val_auc": 0.6808,
+   "val_pixel_auc": 0.8387
+  },
+  {
+   "epoch": 55,
+   "loss": 0.3584,
+   "val_auc": 0.6812,
+   "val_pixel_auc": 0.8314
+  },
+  {
+   "epoch": 56,
+   "loss": 0.3556,
+   "val_auc": 0.6822,
+   "val_pixel_auc": 0.8387
+  },
+  {
+   "epoch": 57,
+   "loss": 0.3545,
+   "val_auc": 0.6839,
+   "val_pixel_auc": 0.8428
+  },
+  {
+   "epoch": 58,
+   "loss": 0.3521,
+   "val_auc": 0.683,
+   "val_pixel_auc": 0.8407
+  },
+  {
+   "epoch": 59,
+   "loss": 0.349,
+   "val_auc": 0.6819,
+   "val_pixel_auc": 0.8416
+  },
+  {
+   "epoch": 60,
+   "loss": 0.3478,
+   "val_auc": 0.6804,
+   "val_pixel_auc": 0.8415
+  },
+  {
+   "epoch": 61,
+   "loss": 0.3461,
+   "val_auc": 0.6773,
+   "val_pixel_auc": 0.8379
+  },
+  {
+   "epoch": 62,
+   "loss": 0.3412,
+   "val_auc": 0.6761,
+   "val_pixel_auc": 0.8399
+  },
+  {
+   "epoch": 63,
+   "loss": 0.3411,
+   "val_auc": 0.6813,
+   "val_pixel_auc": 0.8372
+  },
+  {
+   "epoch": 64,
+   "loss": 0.3409,
+   "val_auc": 0.6762,
+   "val_pixel_auc": 0.8366
+  },
+  {
+   "epoch": 65,
+   "loss": 0.3371,
+   "val_auc": 0.6801,
+   "val_pixel_auc": 0.8405
+  },
+  {
+   "epoch": 66,
+   "loss": 0.335,
+   "val_auc": 0.6779,
+   "val_pixel_auc": 0.8384
+  },
+  {
+   "epoch": 67,
+   "loss": 0.3314,
+   "val_auc": 0.6731,
+   "val_pixel_auc": 0.8352
+  },
+  {
+   "epoch": 68,
+   "loss": 0.3265,
+   "val_auc": 0.6738,
+   "val_pixel_auc": 0.8416
+  },
+  {
+   "epoch": 69,
+   "loss": 0.3268,
+   "val_auc": 0.675,
+   "val_pixel_auc": 0.8411
+  },
+  {
+   "epoch": 70,
+   "loss": 0.3224,
+   "val_auc": 0.6718,
+   "val_pixel_auc": 0.839
+  },
+  {
+   "epoch": 71,
+   "loss": 0.3204,
+   "val_auc": 0.6723,
+   "val_pixel_auc": 0.8407
+  },
+  {
+   "epoch": 72,
+   "loss": 0.3222,
+   "val_auc": 0.6716,
+   "val_pixel_auc": 0.8369
+  }
+ ],
+ "test_tiles": 1000,
+ "auc_model": 0.6859,
+ "auc_elevation": 0.5461,
+ "paired_diff": 0.1398,
+ "win_rate": 0.703,
+ "wilcoxon_p": 1.097514464802632e-54,
+ "quiet_day_mean_prob": 0.0303,
+ "flood_day_mean_prob": 0.1126,
+ "flood_vs_quiet_auc": 0.776
+}
