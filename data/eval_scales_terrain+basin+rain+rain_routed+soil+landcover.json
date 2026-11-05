@@ -1,0 +1,48 @@
+{
+ "tag": "terrain+basin+rain+rain_routed+soil+landcover",
+ "rows": [
+  {
+   "cell_m": 20,
+   "tiles": 1161,
+   "model": 0.6257719866725092,
+   "elevation": 0.5159058308532758,
+   "gain": 0.10986615581923345
+  },
+  {
+   "cell_m": 40,
+   "tiles": 1107,
+   "model": 0.6207708900273368,
+   "elevation": 0.5173628211761404,
+   "gain": 0.10340806885119623
+  },
+  {
+   "cell_m": 80,
+   "tiles": 895,
+   "model": 0.6154040840536381,
+   "elevation": 0.5207547774867755,
+   "gain": 0.09464930656686268
+  },
+  {
+   "cell_m": 160,
+   "tiles": 614,
+   "model": 0.6030157568979888,
+   "elevation": 0.5411125802144368,
+   "gain": 0.06190317668355199
+  },
+  {
+   "cell_m": 280,
+   "tiles": 360,
+   "model": 0.5966671602740886,
+   "elevation": 0.5492844822570164,
+   "gain": 0.047382678017072355
+  },
+  {
+   "cell_m": 560,
+   "tiles": 0,
+   "model": NaN,
+   "elevation": NaN,
+   "gain": NaN
+  }
+ ],
+ "label_frac": 0.15
+}

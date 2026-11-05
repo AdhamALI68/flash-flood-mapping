@@ -1,0 +1,37 @@
+{
+ "tag": "terrain+basin+rain+rain_routed+soil+landcover",
+ "rows": [
+  [
+   "THE MODEL (30 channels, U-Net)",
+   0.7975348234176636
+  ],
+  [
+   "just the value of rain_24h",
+   0.9280973076820374
+  ],
+  [
+   "just the value of rain_1h_peak",
+   0.9005573391914368
+  ],
+  [
+   "just the value of rain_24h_upstream_depth_mm",
+   0.9462671875953674
+  ],
+  [
+   "just the value of rain_24h_upstream_vol_m3",
+   0.9360570311546326
+  ],
+  [
+   "just the value of rain_1h_upstream_vol_m3",
+   0.9432120323181152
+  ],
+  [
+   "just the value of elev_mean_10m",
+   0.4339745044708252
+  ],
+  [
+   "just the value of basin_hand",
+   0.4809166193008423
+  ]
+ ]
+}
