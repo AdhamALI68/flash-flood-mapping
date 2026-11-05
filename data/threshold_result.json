@@ -1,0 +1,22 @@
+{
+  "selection_criterion": "region-balanced AUC",
+  "best_threshold": 0.075,
+  "auc_region_balanced": 0.5531,
+  "auc_pooled": 0.5101,
+  "magnitude_corr": 0.0402,
+  "n_events": 161,
+  "n_positive": 76,
+  "n_negative": 85,
+  "thresholds_tested": [
+    0.05,
+    0.075,
+    0.1,
+    0.125,
+    0.15,
+    0.175,
+    0.2,
+    0.25,
+    0.3
+  ],
+  "note": "AUC 0.5 = no separation. Chosen on gauges only; no model score was consulted."
+}
