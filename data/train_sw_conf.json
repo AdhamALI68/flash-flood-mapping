@@ -1,0 +1,214 @@
+{
+ "tag": "sw_conf",
+ "groups": [
+  "terrain",
+  "basin",
+  "rain",
+  "rain_routed",
+  "soil",
+  "landcover"
+ ],
+ "channels": [
+  "elev_mean_10m",
+  "elev_min_10m",
+  "microrelief_10m",
+  "roughness_10m",
+  "slope_10m",
+  "basin_facc",
+  "basin_hand",
+  "basin_slope",
+  "basin_spi",
+  "basin_twi",
+  "rain_1h_peak",
+  "rain_24h",
+  "rain_ante48h",
+  "rain_ante72h",
+  "soil_bd",
+  "soil_clay",
+  "soil_ksat",
+  "soil_sand",
+  "lc_class",
+  "lc_cropland",
+  "lc_water",
+  "catchment_area_km2",
+  "rain_1h_over_ksat_upstream_mean",
+  "rain_1h_upstream_depth_mm",
+  "rain_1h_upstream_vol_m3",
+  "rain_24h_upstream_depth_mm",
+  "rain_24h_upstream_vol_m3",
+  "rain_cover_frac",
+  "runoff_1h_upstream_depth_mm",
+  "runoff_1h_upstream_vol_m3"
+ ],
+ "test_regions": [
+  "1606",
+  "1809"
+ ],
+ "val_regions": [
+  "1507"
+ ],
+ "threshold": 0.15,
+ "rung": "10",
+ "params": 4374242,
+ "history": [
+  {
+   "epoch": 1,
+   "loss": 0.8689,
+   "val_auc": 0.6741,
+   "val_pixel_auc": 0.7395
+  },
+  {
+   "epoch": 2,
+   "loss": 0.8305,
+   "val_auc": 0.6777,
+   "val_pixel_auc": 0.7352
+  },
+  {
+   "epoch": 3,
+   "loss": 0.8315,
+   "val_auc": 0.674,
+   "val_pixel_auc": 0.757
+  },
+  {
+   "epoch": 4,
+   "loss": 0.8166,
+   "val_auc": 0.6469,
+   "val_pixel_auc": 0.7229
+  },
+  {
+   "epoch": 5,
+   "loss": 0.8109,
+   "val_auc": 0.6573,
+   "val_pixel_auc": 0.7427
+  },
+  {
+   "epoch": 6,
+   "loss": 0.8074,
+   "val_auc": 0.6674,
+   "val_pixel_auc": 0.74
+  },
+  {
+   "epoch": 7,
+   "loss": 0.7975,
+   "val_auc": 0.6835,
+   "val_pixel_auc": 0.7352
+  },
+  {
+   "epoch": 8,
+   "loss": 0.793,
+   "val_auc": 0.6704,
+   "val_pixel_auc": 0.7362
+  },
+  {
+   "epoch": 9,
+   "loss": 0.7903,
+   "val_auc": 0.672,
+   "val_pixel_auc": 0.7489
+  },
+  {
+   "epoch": 10,
+   "loss": 0.7863,
+   "val_auc": 0.676,
+   "val_pixel_auc": 0.7612
+  },
+  {
+   "epoch": 11,
+   "loss": 0.7839,
+   "val_auc": 0.674,
+   "val_pixel_auc": 0.7356
+  },
+  {
+   "epoch": 12,
+   "loss": 0.784,
+   "val_auc": 0.6769,
+   "val_pixel_auc": 0.7473
+  },
+  {
+   "epoch": 13,
+   "loss": 0.7833,
+   "val_auc": 0.6842,
+   "val_pixel_auc": 0.7502
+  },
+  {
+   "epoch": 14,
+   "loss": 0.78,
+   "val_auc": 0.6732,
+   "val_pixel_auc": 0.7409
+  },
+  {
+   "epoch": 15,
+   "loss": 0.7723,
+   "val_auc": 0.669,
+   "val_pixel_auc": 0.741
+  },
+  {
+   "epoch": 16,
+   "loss": 0.7685,
+   "val_auc": 0.6736,
+   "val_pixel_auc": 0.7208
+  },
+  {
+   "epoch": 17,
+   "loss": 0.7701,
+   "val_auc": 0.6691,
+   "val_pixel_auc": 0.7466
+  },
+  {
+   "epoch": 18,
+   "loss": 0.763,
+   "val_auc": 0.6918,
+   "val_pixel_auc": 0.7558
+  },
+  {
+   "epoch": 19,
+   "loss": 0.7651,
+   "val_auc": 0.6835,
+   "val_pixel_auc": 0.7566
+  },
+  {
+   "epoch": 20,
+   "loss": 0.7625,
+   "val_auc": 0.662,
+   "val_pixel_auc": 0.7443
+  },
+  {
+   "epoch": 21,
+   "loss": 0.7572,
+   "val_auc": 0.6764,
+   "val_pixel_auc": 0.743
+  },
+  {
+   "epoch": 22,
+   "loss": 0.756,
+   "val_auc": 0.6637,
+   "val_pixel_auc": 0.7219
+  },
+  {
+   "epoch": 23,
+   "loss": 0.7511,
+   "val_auc": 0.6749,
+   "val_pixel_auc": 0.7469
+  },
+  {
+   "epoch": 24,
+   "loss": 0.7546,
+   "val_auc": 0.6707,
+   "val_pixel_auc": 0.7159
+  },
+  {
+   "epoch": 25,
+   "loss": 0.7489,
+   "val_auc": 0.668,
+   "val_pixel_auc": 0.7258
+  }
+ ],
+ "test_tiles": 1161,
+ "auc_model": 0.6223,
+ "auc_elevation": 0.5159,
+ "paired_diff": 0.1064,
+ "win_rate": 0.6072,
+ "wilcoxon_p": 1.208329701615741e-22,
+ "quiet_day_mean_prob": 0.2337,
+ "flood_day_mean_prob": 0.3869,
+ "flood_vs_quiet_auc": 0.7731
+}

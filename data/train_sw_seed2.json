@@ -1,0 +1,244 @@
+{
+ "tag": "sw_seed2",
+ "groups": [
+  "terrain",
+  "basin",
+  "rain",
+  "rain_routed",
+  "soil",
+  "landcover"
+ ],
+ "channels": [
+  "elev_mean_10m",
+  "elev_min_10m",
+  "microrelief_10m",
+  "roughness_10m",
+  "slope_10m",
+  "basin_facc",
+  "basin_hand",
+  "basin_slope",
+  "basin_spi",
+  "basin_twi",
+  "rain_1h_peak",
+  "rain_24h",
+  "rain_ante48h",
+  "rain_ante72h",
+  "soil_bd",
+  "soil_clay",
+  "soil_ksat",
+  "soil_sand",
+  "lc_class",
+  "lc_cropland",
+  "lc_water",
+  "catchment_area_km2",
+  "rain_1h_over_ksat_upstream_mean",
+  "rain_1h_upstream_depth_mm",
+  "rain_1h_upstream_vol_m3",
+  "rain_24h_upstream_depth_mm",
+  "rain_24h_upstream_vol_m3",
+  "rain_cover_frac",
+  "runoff_1h_upstream_depth_mm",
+  "runoff_1h_upstream_vol_m3"
+ ],
+ "test_regions": [
+  "1606",
+  "1809"
+ ],
+ "val_regions": [
+  "1507"
+ ],
+ "threshold": 0.15,
+ "rung": "10",
+ "params": 4374242,
+ "history": [
+  {
+   "epoch": 1,
+   "loss": 0.5822,
+   "val_auc": 0.6622,
+   "val_pixel_auc": 0.7593
+  },
+  {
+   "epoch": 2,
+   "loss": 0.5359,
+   "val_auc": 0.6924,
+   "val_pixel_auc": 0.7663
+  },
+  {
+   "epoch": 3,
+   "loss": 0.5298,
+   "val_auc": 0.686,
+   "val_pixel_auc": 0.7645
+  },
+  {
+   "epoch": 4,
+   "loss": 0.5251,
+   "val_auc": 0.668,
+   "val_pixel_auc": 0.7552
+  },
+  {
+   "epoch": 5,
+   "loss": 0.5223,
+   "val_auc": 0.6572,
+   "val_pixel_auc": 0.7462
+  },
+  {
+   "epoch": 6,
+   "loss": 0.5185,
+   "val_auc": 0.6472,
+   "val_pixel_auc": 0.7541
+  },
+  {
+   "epoch": 7,
+   "loss": 0.5141,
+   "val_auc": 0.6696,
+   "val_pixel_auc": 0.7543
+  },
+  {
+   "epoch": 8,
+   "loss": 0.5121,
+   "val_auc": 0.6709,
+   "val_pixel_auc": 0.7539
+  },
+  {
+   "epoch": 9,
+   "loss": 0.513,
+   "val_auc": 0.6576,
+   "val_pixel_auc": 0.7552
+  },
+  {
+   "epoch": 10,
+   "loss": 0.5073,
+   "val_auc": 0.6488,
+   "val_pixel_auc": 0.7465
+  },
+  {
+   "epoch": 11,
+   "loss": 0.5066,
+   "val_auc": 0.6772,
+   "val_pixel_auc": 0.7593
+  },
+  {
+   "epoch": 12,
+   "loss": 0.502,
+   "val_auc": 0.6481,
+   "val_pixel_auc": 0.7505
+  },
+  {
+   "epoch": 13,
+   "loss": 0.5018,
+   "val_auc": 0.6739,
+   "val_pixel_auc": 0.7659
+  },
+  {
+   "epoch": 14,
+   "loss": 0.498,
+   "val_auc": 0.6617,
+   "val_pixel_auc": 0.7552
+  },
+  {
+   "epoch": 15,
+   "loss": 0.4953,
+   "val_auc": 0.659,
+   "val_pixel_auc": 0.7706
+  },
+  {
+   "epoch": 16,
+   "loss": 0.4952,
+   "val_auc": 0.673,
+   "val_pixel_auc": 0.7534
+  },
+  {
+   "epoch": 17,
+   "loss": 0.4919,
+   "val_auc": 0.6925,
+   "val_pixel_auc": 0.7644
+  },
+  {
+   "epoch": 18,
+   "loss": 0.4916,
+   "val_auc": 0.6817,
+   "val_pixel_auc": 0.766
+  },
+  {
+   "epoch": 19,
+   "loss": 0.4897,
+   "val_auc": 0.6625,
+   "val_pixel_auc": 0.7579
+  },
+  {
+   "epoch": 20,
+   "loss": 0.4882,
+   "val_auc": 0.6798,
+   "val_pixel_auc": 0.7652
+  },
+  {
+   "epoch": 21,
+   "loss": 0.4855,
+   "val_auc": 0.6615,
+   "val_pixel_auc": 0.76
+  },
+  {
+   "epoch": 22,
+   "loss": 0.4876,
+   "val_auc": 0.6442,
+   "val_pixel_auc": 0.7323
+  },
+  {
+   "epoch": 23,
+   "loss": 0.4836,
+   "val_auc": 0.671,
+   "val_pixel_auc": 0.7555
+  },
+  {
+   "epoch": 24,
+   "loss": 0.4826,
+   "val_auc": 0.6601,
+   "val_pixel_auc": 0.7596
+  },
+  {
+   "epoch": 25,
+   "loss": 0.4802,
+   "val_auc": 0.6747,
+   "val_pixel_auc": 0.7543
+  },
+  {
+   "epoch": 26,
+   "loss": 0.4781,
+   "val_auc": 0.6701,
+   "val_pixel_auc": 0.7434
+  },
+  {
+   "epoch": 27,
+   "loss": 0.4795,
+   "val_auc": 0.6561,
+   "val_pixel_auc": 0.7391
+  },
+  {
+   "epoch": 28,
+   "loss": 0.4773,
+   "val_auc": 0.6712,
+   "val_pixel_auc": 0.7577
+  },
+  {
+   "epoch": 29,
+   "loss": 0.4737,
+   "val_auc": 0.6623,
+   "val_pixel_auc": 0.7606
+  },
+  {
+   "epoch": 30,
+   "loss": 0.4722,
+   "val_auc": 0.678,
+   "val_pixel_auc": 0.7417
+  }
+ ],
+ "test_tiles": 1161,
+ "auc_model": 0.6274,
+ "auc_elevation": 0.5159,
+ "paired_diff": 0.1115,
+ "win_rate": 0.6038,
+ "wilcoxon_p": 5.900907848629454e-26,
+ "quiet_day_mean_prob": 0.0661,
+ "flood_day_mean_prob": 0.1515,
+ "flood_vs_quiet_auc": 0.7516
+}
