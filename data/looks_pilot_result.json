@@ -1,0 +1,29 @@
+{
+ "5x1": {
+  "looks": 5,
+  "events": 40,
+  "sigma_drop": 0.04471608208171629,
+  "threshold_in_sigma": 3.3544978230848326,
+  "frac_above_3sigma": 0.0,
+  "auc_vs_optical": 0.6313245540820934,
+  "n_optical": 15
+ },
+ "10x2": {
+  "looks": 20,
+  "events": 40,
+  "sigma_drop": 0.010225727489722057,
+  "threshold_in_sigma": 14.668882986639918,
+  "frac_above_3sigma": 0.08634438204702598,
+  "auc_vs_optical": 0.629592599167471,
+  "n_optical": 15
+ },
+ "20x4": {
+  "looks": 80,
+  "events": 40,
+  "sigma_drop": 0.001953188539990827,
+  "threshold_in_sigma": 76.79750158717624,
+  "frac_above_3sigma": 0.40527546878069876,
+  "auc_vs_optical": 0.5838492700127762,
+  "n_optical": 15
+ }
+}
