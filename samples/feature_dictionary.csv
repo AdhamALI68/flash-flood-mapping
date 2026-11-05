@@ -1,0 +1,31 @@
+index,name,family,unit,log1p_at_load,min,p01,median,p99,max,mean_raw,std_raw,non_finite_in_mask,model_mean_after_log,model_std_after_log,meaning
+0,elev_mean_10m,terrain,m,False,-85.012,5.43268,685.501,2522.93,3596.4,729.649,480.019,0,788.416,524.065,Mean elevation in the 20 m cell. From 1 m lidar degraded to 10 m. Also used by the elevation term in the model output.
+1,elev_min_10m,terrain,m,False,-85.0231,5.91653,684.579,2525.28,3593.19,728.936,479.542,0,787.683,523.537,"Lowest elevation in the 20 m cell, same source."
+2,microrelief_10m,terrain,m,False,0,0.0105133,0.449707,9.95691,184.326,1.43087,2.36075,0,1.47293,2.40815,Elevation range (max minus min) inside the 20 m cell.
+3,roughness_10m,terrain,m,False,0,0.00419141,0.177002,3.85172,67.3631,0.562181,0.922823,0,0.579036,0.942353,Standard deviation of elevation inside the 20 m cell.
+4,slope_10m,terrain,degrees,False,0,0.0286918,1.63566,35.2769,81.2092,5.26403,8.18731,0,5.43196,8.31647,Slope from the degraded DEM.
+5,basin_facc,basin routing,cell count (10 m cells),True,1.09395,1.34608,14.768,59536.1,1.6444e+08,31863.8,1.2934e+06,0,3.27332,2.24314,"Flow accumulation: how many cells drain into this one. Routed over the whole basin, not the tile."
+6,basin_hand,basin routing,m,False,0,0,1.76665,126.803,545.614,10.5126,25.252,0,11.6584,26.3711,Height above the nearest drainage.
+7,basin_slope,basin routing,degrees,False,0.000455298,0.000859437,1.57845,35.4409,79.5984,5.29468,8.31869,0,5.71046,8.46401,Slope from the basin-wide 10 m DEM.
+8,basin_spi,basin routing,unitless,True,-1.6662,-0.944541,2.85334,6.94443,12.5189,2.99301,1.7597,0,1.31307,0.473105,Stream power index.
+9,basin_twi,basin routing,unitless,False,3.5912,5.91426,9.85767,15.8767,24.2588,9.9633,2.12519,0,9.65021,1.83952,Topographic wetness index.
+10,rain_1h_peak,rain at the point,mm,False,0,0,0.551714,43.0217,93.2749,5.49558,9.70303,0,6.27028,10.5427,"MRMS radar rain over the 1 hour ending at the hour the flood report starts. The name says peak, but it is that single hour, not a maximum over a window."
+11,rain_24h,rain at the point,mm,False,0,0,4.79214,67.5232,226.57,12.332,16.1793,0,13.4251,16.4264,MRMS radar rain over the 24 hours ending at that same hour.
+12,rain_ante48h,rain at the point,mm,False,0,0,0,32.1895,146.878,2.16443,6.91659,0,2.25731,7.39575,MRMS 24 hour total ending 48 hours before the report hour.
+13,rain_ante72h,rain at the point,mm,False,0,0,0,23.1386,84.8877,1.42832,4.89399,0,1.37057,4.837,MRMS 24 hour total ending 72 hours before the report hour.
+14,soil_bd,soil,g/cm3,False,1.07817,1.27849,1.44271,1.62729,1.70738,1.45306,0.0715424,0,1.44677,0.0682565,POLARIS bulk density.
+15,soil_clay,soil,percent,False,0.748691,3.04287,9.90033,26.6829,46.6015,10.3004,4.94423,0,11.3881,5.35292,POLARIS clay content.
+16,soil_ksat,soil,log10(cm/hr),False,-0.593378,-0.0465274,0.868303,1.42841,2.02444,0.858679,0.31658,0,0.824038,0.329675,"POLARIS saturated hydraulic conductivity: how fast water can soak in. Stored as a log, so negative values are normal."
+17,soil_sand,soil,percent,False,6.39584,16.5485,63.7991,88.7296,96.4948,62.9407,14.1481,0,60.0394,15.1662,POLARIS sand content.
+18,lc_class,land cover,class code,False,10,10,50,60,90,42.7347,18.5486,0,39.9942,18.4297,"ESA WorldCover class code. A category, not a quantity: 10 tree, 20 shrub, 30 grass, 40 crop, 50 built, 60 bare, 70 snow, 80 water, 90 wetland, 95 mangrove, 100 moss."
+19,lc_cropland,land cover,0 or 1,False,0,0,0,1,1,0.0275245,0.163606,0,0.0262593,0.159906,1 where lc_class is 40.
+20,lc_water,land cover,0 or 1,False,0,0,0,0,1,0.00542772,0.0734728,0,0.0083129,0.0907954,1 where lc_class is 80.
+21,catchment_area_km2,routed rain,km2,True,0.01,0.01,0.0877008,152.948,16502.4,13.6254,224.706,0,0.435371,0.987081,Area that drains into this pixel. Routed at 100 m.
+22,rain_1h_over_ksat_upstream_mean,routed rain,ratio,False,0,0,0.00855092,1.00367,7.55171,0.10074,0.236937,0,0.119208,0.265307,Mean over the catchment of 1 hour rain divided by ksat.
+23,rain_1h_upstream_depth_mm,routed rain,mm,False,0,0,0.621364,42.0406,90.3256,5.45857,9.50908,0,6.23781,10.3611,Mean 1 hour rain depth over the catchment.
+24,rain_1h_upstream_vol_m3,routed rain,m3,True,0,0,41.4772,310129,5.13612e+07,28423.5,499376,0,4.09645,3.61617,Total 1 hour rain volume falling on the catchment.
+25,rain_24h_upstream_depth_mm,routed rain,mm,False,0,0,5.08074,66.2557,221.221,12.3784,16.0194,0,13.4558,16.2762,Mean 24 hour rain depth over the catchment.
+26,rain_24h_upstream_vol_m3,routed rain,m3,True,0,0,315.179,1.0142e+06,3.34739e+08,122044,2.41342e+06,0,5.50311,3.67151,Total 24 hour rain volume falling on the catchment.
+27,rain_cover_frac,routed rain,0 to 1,False,1,1,1,1,1,1,0,0,1,1,"Share of the catchment the radar actually saw. Exactly 1.0 on every valid pixel, so it carries no information."
+28,runoff_1h_upstream_depth_mm,routed rain,mm,False,0,0,0,2.46925,48.4889,0.123053,1.42319,0,0.160649,1.65028,"Routed infiltration-excess runoff, mean depth. Runoff per cell is max(0, rain_1h - ksat)."
+29,runoff_1h_upstream_vol_m3,routed rain,m3,True,0,0,0,1241.34,2.80287e+06,373.756,11750.4,0,0.237035,1.25858,"Routed infiltration-excess runoff, total volume."

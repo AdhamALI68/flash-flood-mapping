@@ -1,0 +1,56 @@
+{
+ "tile_px": 112,
+ "pixel_m": 20,
+ "tile_km": 2.24,
+ "features": 30,
+ "flood_threshold_on_coh_drop": 0.15,
+ "flood_day_tiles": 5887,
+ "quiet_control_tiles": 1597,
+ "flood_events_with_tiles": 567,
+ "quiet_dates_with_tiles": 159,
+ "valid_pixels_total": 92638558,
+ "splits": {
+  "train": {
+   "tiles": 4373,
+   "valid_pixels": 54237723,
+   "flood_pixels": 6860586,
+   "flood_share": 0.1265,
+   "huc4": [
+    "1501",
+    "1503",
+    "1810"
+   ]
+  },
+  "val": {
+   "tiles": 1193,
+   "valid_pixels": 14869267,
+   "flood_pixels": 1620070,
+   "flood_share": 0.109,
+   "huc4": [
+    "1507"
+   ]
+  },
+  "test": {
+   "tiles": 1918,
+   "valid_pixels": 23531568,
+   "flood_pixels": 1233976,
+   "flood_share": 0.0524,
+   "huc4": [
+    "1606",
+    "1809"
+   ]
+  }
+ },
+ "coh_drop_percentiles_p1_p5_p25_p50_p75_p95_p99": [
+  -0.3914,
+  -0.1491,
+  -0.0107,
+  0.0056,
+  0.0457,
+  0.2793,
+  0.5533
+ ],
+ "label_grid_tile": "976162_112_336",
+ "pixels_sample_rows": 19790,
+ "pixels_sample_flood_share": 0.1045
+}
