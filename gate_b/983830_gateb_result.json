@@ -1,0 +1,30 @@
+{
+  "event_id": 983830,
+  "basin": "Lower Gila-Painted Rock Reservoir",
+  "begin_utc": "2021-08-14 08:40:00",
+  "burst": "027_056727_IW3",
+  "looks": "5x1",
+  "all": {
+    "n": 3994360,
+    "baseline_coh": 0.9374,
+    "coevent_coh": 0.9191,
+    "mean_drop": 0.0183,
+    "frac_dropped_gt_0.1": 0.0814
+  },
+  "near": {
+    "n": 137874,
+    "baseline_coh": 0.9454,
+    "coevent_coh": 0.7967,
+    "mean_drop": 0.1487,
+    "frac_dropped_gt_0.1": 0.3793
+  },
+  "far": {
+    "n": 3856486,
+    "baseline_coh": 0.9372,
+    "coevent_coh": 0.9235,
+    "mean_drop": 0.0136,
+    "frac_dropped_gt_0.1": 0.0708
+  },
+  "near_km": 5.0,
+  "near_minus_far": 0.1351
+}

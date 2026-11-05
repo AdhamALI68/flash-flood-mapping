@@ -1,0 +1,30 @@
+{
+  "event_id": 983830,
+  "basin": "Lower Gila-Painted Rock Reservoir",
+  "begin_utc": "2021-08-14 08:40:00",
+  "lat": 32.8914,
+  "lon": -112.6763,
+  "full_burst_id": "027_056727_IW3",
+  "subswath": "IW3",
+  "path": 27,
+  "scenes": {
+    "pre2": "S1_056727_IW3_20210807T132830_VV_2788-BURST",
+    "pre1": "S1_056727_IW3_20210813T132748_VV_49AF-BURST",
+    "post": "S1_056727_IW3_20210819T132830_VV_9C60-BURST"
+  },
+  "times": {
+    "pre2": "2021-08-07 13:28:21",
+    "pre1": "2021-08-13 13:27:38",
+    "post": "2021-08-19 13:28:22"
+  },
+  "pairs": {
+    "baseline": [
+      "S1_056727_IW3_20210807T132830_VV_2788-BURST",
+      "S1_056727_IW3_20210813T132748_VV_49AF-BURST"
+    ],
+    "coevent": [
+      "S1_056727_IW3_20210813T132748_VV_49AF-BURST",
+      "S1_056727_IW3_20210819T132830_VV_9C60-BURST"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "event_id": 983830,
+  "looks": "5x1",
+  "burst": "027_056727_IW3",
+  "jobs": {
+    "baseline": {
+      "job_id": "51002414-252e-4571-8eec-c4e8284a5ad5",
+      "name": "gateb-983830-baseline",
+      "reference": "S1_056727_IW3_20210807T132830_VV_2788-BURST",
+      "secondary": "S1_056727_IW3_20210813T132748_VV_49AF-BURST"
+    },
+    "coevent": {
+      "job_id": "52178ec2-2393-4901-aa18-f5280d8efb84",
+      "name": "gateb-983830-coevent",
+      "reference": "S1_056727_IW3_20210813T132748_VV_49AF-BURST",
+      "secondary": "S1_056727_IW3_20210819T132830_VV_9C60-BURST"
+    }
+  }
+}
