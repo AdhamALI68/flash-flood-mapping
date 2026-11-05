@@ -1,0 +1,44 @@
+[
+ {
+  "id": "s20",
+  "what": "Mark 20 new floods, look at the mistakes, add rules",
+  "status": "done",
+  "note": "2 of 20 kept, both look wrong; 6 rule changes found",
+  "at": "2026-09-14 17:32"
+ },
+ {
+  "id": "all",
+  "what": "Download and mark every flood that has training tiles, save everything",
+  "status": "done",
+  "note": "567 floods in 98 min: 442 with clear photos saved",
+  "at": "2026-09-14 19:11"
+ },
+ {
+  "id": "rules",
+  "what": "Find and apply the rules on all saved floods, check samples by eye",
+  "status": "done",
+  "note": "checked by eye: 3 right, 11 not sure, 49 wrong (3 = 40 tiles, 2 floods in test regions)",
+  "at": "2026-09-14 20:41"
+ },
+ {
+  "id": "tiles",
+  "what": "Build training tiles from the clean floods",
+  "status": "done",
+  "note": "275 tiles from 28 floods",
+  "at": "2026-09-14 19:22"
+ },
+ {
+  "id": "train",
+  "what": "Train the model on the new labels",
+  "status": "done",
+  "note": "",
+  "at": "2026-09-14 19:24"
+ },
+ {
+  "id": "score",
+  "what": "Score recall and precision on the held-out test regions",
+  "status": "done",
+  "note": "trusted 2-flood test: fine-tuned best precision (0.209 at recall 0.25, 0.175 at 0.50)",
+  "at": "2026-09-14 20:41"
+ }
+]
