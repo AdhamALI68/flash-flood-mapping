@@ -1,0 +1,60 @@
+{
+ "unet (unet_top)": {
+  "all quiet days": {
+   "auc": 0.837,
+   "recall": 0.708,
+   "false_alarm_rate": 0.231,
+   "precision_test_mix": 0.89,
+   "precision_50_50": 0.754,
+   "precision_1_in_5": 0.434,
+   "n_flood": 137,
+   "n_quiet": 52
+  },
+  "rainy quiet days only (>= 5 mm)": null
+ },
+ "trees on square summaries": {
+  "all quiet days": {
+   "auc": 0.981,
+   "recall": 0.891,
+   "false_alarm_rate": 0.038,
+   "precision_test_mix": 0.984,
+   "precision_50_50": 0.959,
+   "precision_1_in_5": 0.853,
+   "n_flood": 137,
+   "n_quiet": 52
+  },
+  "rainy quiet days only (>= 5 mm)": null
+ },
+ "rain alone (24 h, square mean)": {
+  "all quiet days": {
+   "auc": 0.943,
+   "recall": 0.869,
+   "false_alarm_rate": 0.038,
+   "precision_test_mix": 0.983,
+   "precision_50_50": 0.958,
+   "precision_1_in_5": 0.85,
+   "n_flood": 137,
+   "n_quiet": 52
+  },
+  "rainy quiet days only (>= 5 mm)": null
+ },
+ "shuffled-label trees": {
+  "all quiet days": {
+   "auc": 0.588,
+   "recall": 0.431,
+   "false_alarm_rate": 0.288,
+   "precision_test_mix": 0.797,
+   "precision_50_50": 0.599,
+   "precision_1_in_5": 0.272,
+   "n_flood": 137,
+   "n_quiet": 52
+  },
+  "rainy quiet days only (>= 5 mm)": null
+ },
+ "_info": {
+  "aggregation_chosen_on_validation": "unet_top",
+  "rainy_mm": 5.0,
+  "test_quiet_days_rainy": 1,
+  "test_quiet_days": 52
+ }
+}

@@ -1,0 +1,321 @@
+{
+ "rungs": "1,2,5,10,30",
+ "floods": {
+  "983830": {
+   "splits": {
+    "train west, test east": {
+     "photo": {
+      "auc": 0.764,
+      "ap": 0.383,
+      "base_rate": 0.161,
+      "precision_at_recall_0.5": 0.365,
+      "test_flood_pixels": 6229
+     },
+     "radar": {
+      "auc": 0.741,
+      "ap": 0.773,
+      "base_rate": 0.56,
+      "precision_at_recall_0.5": 0.795,
+      "test_flood_pixels": 21682
+     },
+     "shuffled": {
+      "auc": 0.55,
+      "ap": 0.229,
+      "base_rate": 0.161,
+      "precision_at_recall_0.5": 0.196,
+      "test_flood_pixels": 6229
+     },
+     "elevation": 0.852
+    },
+    "train east, test west": {
+     "photo": {
+      "auc": 0.751,
+      "ap": 0.378,
+      "base_rate": 0.136,
+      "precision_at_recall_0.5": 0.381,
+      "test_flood_pixels": 5160
+     },
+     "radar": {
+      "auc": 0.79,
+      "ap": 0.321,
+      "base_rate": 0.11,
+      "precision_at_recall_0.5": 0.308,
+      "test_flood_pixels": 4183
+     },
+     "shuffled": {
+      "auc": 0.421,
+      "ap": 0.114,
+      "base_rate": 0.136,
+      "precision_at_recall_0.5": 0.137,
+      "test_flood_pixels": 5160
+     },
+     "elevation": 0.607
+    },
+    "train north, test south": {
+     "photo": {
+      "auc": 0.778,
+      "ap": 0.374,
+      "base_rate": 0.161,
+      "precision_at_recall_0.5": 0.37,
+      "test_flood_pixels": 11397
+     },
+     "radar": {
+      "auc": 0.668,
+      "ap": 0.432,
+      "base_rate": 0.316,
+      "precision_at_recall_0.5": 0.458,
+      "test_flood_pixels": 22325
+     },
+     "shuffled": {
+      "auc": 0.589,
+      "ap": 0.208,
+      "base_rate": 0.161,
+      "precision_at_recall_0.5": 0.211,
+      "test_flood_pixels": 11397
+     },
+     "elevation": 0.714
+    },
+    "train south, test north": {
+     "photo": {
+      "auc": 0.851,
+      "ap": 0.856,
+      "base_rate": 0.521,
+      "precision_at_recall_0.5": 0.826,
+      "test_flood_pixels": 175
+     },
+     "radar": {
+      "auc": 0.767,
+      "ap": 0.798,
+      "base_rate": 0.631,
+      "precision_at_recall_0.5": 0.807,
+      "test_flood_pixels": 212
+     },
+     "shuffled": {
+      "auc": 0.622,
+      "ap": 0.63,
+      "base_rate": 0.521,
+      "precision_at_recall_0.5": 0.622,
+      "test_flood_pixels": 175
+     },
+     "elevation": 0.414
+    }
+   },
+   "photo_auc_mean": 0.786,
+   "flood_share": 0.203,
+   "pixels": 87808
+  },
+  "1142175": {
+   "splits": {
+    "train west, test east": {
+     "photo": {
+      "auc": 0.641,
+      "ap": 0.144,
+      "base_rate": 0.079,
+      "precision_at_recall_0.5": 0.138,
+      "test_flood_pixels": 5280
+     },
+     "radar": {
+      "auc": 0.747,
+      "ap": 0.324,
+      "base_rate": 0.116,
+      "precision_at_recall_0.5": 0.305,
+      "test_flood_pixels": 7752
+     },
+     "shuffled": {
+      "auc": 0.546,
+      "ap": 0.093,
+      "base_rate": 0.079,
+      "precision_at_recall_0.5": 0.103,
+      "test_flood_pixels": 5280
+     },
+     "elevation": 0.615
+    },
+    "train east, test west": {
+     "photo": {
+      "auc": 0.642,
+      "ap": 0.163,
+      "base_rate": 0.106,
+      "precision_at_recall_0.5": 0.183,
+      "test_flood_pixels": 9136
+     },
+     "radar": {
+      "auc": 0.82,
+      "ap": 0.095,
+      "base_rate": 0.029,
+      "precision_at_recall_0.5": 0.095,
+      "test_flood_pixels": 2526
+     },
+     "shuffled": {
+      "auc": 0.522,
+      "ap": 0.108,
+      "base_rate": 0.106,
+      "precision_at_recall_0.5": 0.121,
+      "test_flood_pixels": 9136
+     },
+     "elevation": 0.481
+    },
+    "train north, test south": {
+     "photo": {
+      "auc": 0.599,
+      "ap": 0.171,
+      "base_rate": 0.123,
+      "precision_at_recall_0.5": 0.159,
+      "test_flood_pixels": 9338
+     },
+     "radar": {
+      "auc": 0.394,
+      "ap": 0.02,
+      "base_rate": 0.026,
+      "precision_at_recall_0.5": 0.028,
+      "test_flood_pixels": 1968
+     },
+     "shuffled": {
+      "auc": 0.412,
+      "ap": 0.102,
+      "base_rate": 0.123,
+      "precision_at_recall_0.5": 0.124,
+      "test_flood_pixels": 9338
+     },
+     "elevation": 0.617
+    },
+    "train south, test north": {
+     "photo": {
+      "auc": 0.652,
+      "ap": 0.174,
+      "base_rate": 0.104,
+      "precision_at_recall_0.5": 0.154,
+      "test_flood_pixels": 7266
+     },
+     "radar": {
+      "auc": 0.529,
+      "ap": 0.132,
+      "base_rate": 0.128,
+      "precision_at_recall_0.5": 0.146,
+      "test_flood_pixels": 8927
+     },
+     "shuffled": {
+      "auc": 0.611,
+      "ap": 0.126,
+      "base_rate": 0.104,
+      "precision_at_recall_0.5": 0.143,
+      "test_flood_pixels": 7266
+     },
+     "elevation": 0.473
+    }
+   },
+   "photo_auc_mean": 0.633,
+   "flood_share": 0.12,
+   "pixels": 168060
+  },
+  "1293229": {
+   "splits": {
+    "train west, test east": {
+     "photo": null,
+     "radar": {
+      "auc": 0.474,
+      "ap": 0.07,
+      "base_rate": 0.076,
+      "precision_at_recall_0.5": 0.087,
+      "test_flood_pixels": 4310
+     },
+     "shuffled": null,
+     "elevation": 0.388
+    },
+    "train east, test west": {
+     "photo": null,
+     "radar": {
+      "auc": 0.742,
+      "ap": 0.026,
+      "base_rate": 0.004,
+      "precision_at_recall_0.5": 0.014,
+      "test_flood_pixels": 193
+     },
+     "shuffled": null,
+     "elevation": null
+    },
+    "train north, test south": {
+     "photo": null,
+     "radar": {
+      "auc": 0.627,
+      "ap": 0.017,
+      "base_rate": 0.011,
+      "precision_at_recall_0.5": 0.023,
+      "test_flood_pixels": 831
+     },
+     "shuffled": null,
+     "elevation": 0.789
+    },
+    "train south, test north": {
+     "photo": null,
+     "radar": {
+      "auc": 0.625,
+      "ap": 0.046,
+      "base_rate": 0.027,
+      "precision_at_recall_0.5": 0.037,
+      "test_flood_pixels": 677
+     },
+     "shuffled": null,
+     "elevation": null
+    }
+   },
+   "photo_auc_mean": null,
+   "flood_share": 0.058,
+   "pixels": 123474
+  },
+  "779149": {
+   "splits": {
+    "train west, test east": {
+     "photo": null,
+     "radar": {
+      "auc": 0.69,
+      "ap": 0.018,
+      "base_rate": 0.009,
+      "precision_at_recall_0.5": 0.019,
+      "test_flood_pixels": 722
+     },
+     "shuffled": null,
+     "elevation": null
+    },
+    "train east, test west": {
+     "photo": null,
+     "radar": {
+      "auc": 0.375,
+      "ap": 0.002,
+      "base_rate": 0.001,
+      "precision_at_recall_0.5": 0.001,
+      "test_flood_pixels": 149
+     },
+     "shuffled": null,
+     "elevation": 0.284
+    },
+    "train north, test south": {
+     "photo": null,
+     "radar": {
+      "auc": 0.796,
+      "ap": 0.04,
+      "base_rate": 0.003,
+      "precision_at_recall_0.5": 0.03,
+      "test_flood_pixels": 199
+     },
+     "shuffled": null,
+     "elevation": 0.146
+    },
+    "train south, test north": {
+     "photo": null,
+     "radar": {
+      "auc": 0.833,
+      "ap": 0.064,
+      "base_rate": 0.004,
+      "precision_at_recall_0.5": 0.057,
+      "test_flood_pixels": 430
+     },
+     "shuffled": null,
+     "elevation": null
+    }
+   },
+   "photo_auc_mean": null,
+   "flood_share": 0.004,
+   "pixels": 199891
+  }
+ }
+}
