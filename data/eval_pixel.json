@@ -1,0 +1,12 @@
+{
+ "tag": "terrain+basin+rain+rain_routed+soil+landcover",
+ "pooled_all": {
+  "model": 0.6953275214901812,
+  "elevation": 0.4806290179911801,
+  "rain": 0.6476875321217308
+ },
+ "flood_days_only": {
+  "model": 0.6352063149280617
+ },
+ "pos_rate": 0.0524391744740512
+}

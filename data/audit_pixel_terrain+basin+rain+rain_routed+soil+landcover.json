@@ -1,0 +1,30 @@
+{
+ "geometry": {
+  "pass": true,
+  "detail": "112x112 px at 20 m = 2.24 km per tile"
+ },
+ "label": {
+  "pass": true,
+  "detail": "target = coh_drop > 0.15\nrange -0.818 .. 0.827 (must be inside -1..1)\npositive rate 10.49% of valid pixels"
+ },
+ "held-out split": {
+  "pass": true,
+  "detail": "train regions ['1501', '1503', '1810']\ntest regions ['1606', '1809']\noverlapping regions none\noverlapping events  0"
+ },
+ "leakage": {
+  "pass": true,
+  "detail": "30 inputs, all pre-event by construction\nchannels mentioning coherence/amplitude/post-event: none\nthe co-event radar lives only in label.tif and is never tiled as input"
+ },
+ "spatial alignment": {
+  "pass": true,
+  "detail": "correct pairing      AUC 0.6861\nflipped 180 degrees  AUC 0.6503  (must be clearly worse)\nshifted by one pixel AUC 0.6858  (near-identical is expected)"
+ },
+ "AUC arithmetic": {
+  "pass": true,
+  "detail": "ours 0.686093\nsklearn 0.686093\ndifference 0.00e+00"
+ },
+ "IS IT PER PIXEL": {
+  "pass": true,
+  "detail": "mean within-tile std of prediction   0.0373\nstd of tile means (between tiles)    0.1032\nwithin / between ratio               0.362   (>0.3 = genuinely spatial)\npooled AUC                           0.6950\npooled AUC after removing each tile's own mean  0.5489\nwithin-tile AUC, averaged per tile   0.6233 (n=1074 tiles)\n  ^ the fair measure of spatial skill. The centred-pooled number above\n    is harsher because one pooled ranking lets high-variance tiles\n    dominate; per-tile averaging does not."
+ }
+}
