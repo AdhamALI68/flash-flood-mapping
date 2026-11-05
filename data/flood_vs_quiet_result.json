@@ -1,0 +1,100 @@
+{
+  "n_pairs": 174,
+  "best_measurement": "low_coh_frac_0.15",
+  "paired_win_rate": 0.8678,
+  "sign_test_p": 2.83e-24,
+  "auc": 0.7648,
+  "all": [
+    {
+      "measurement": "amp_frac_dark",
+      "n_pairs": 174,
+      "paired_win_rate": 0.7816,
+      "sign_test_p": 3.86e-14,
+      "auc": 0.8045,
+      "median_flood": 0.23736,
+      "median_quiet": 0.18093
+    },
+    {
+      "measurement": "amp_p05_db",
+      "n_pairs": 174,
+      "paired_win_rate": 0.7816,
+      "sign_test_p": 3.86e-14,
+      "auc": 0.7754,
+      "median_flood": -7.35041,
+      "median_quiet": -6.12788
+    },
+    {
+      "measurement": "coh_frac_0.15",
+      "n_pairs": 174,
+      "paired_win_rate": 0.8678,
+      "sign_test_p": 2.83e-24,
+      "auc": 0.7943,
+      "median_flood": 0.09723,
+      "median_quiet": 0.01711
+    },
+    {
+      "measurement": "coh_mean",
+      "n_pairs": 174,
+      "paired_win_rate": 0.7414,
+      "sign_test_p": 1.37e-10,
+      "auc": 0.7215,
+      "median_flood": 0.03126,
+      "median_quiet": -0.00115
+    },
+    {
+      "measurement": "coh_p95",
+      "n_pairs": 174,
+      "paired_win_rate": 0.8621,
+      "sign_test_p": 1.8e-23,
+      "auc": 0.8049,
+      "median_flood": 0.2338,
+      "median_quiet": 0.05748
+    },
+    {
+      "measurement": "fusion_frac",
+      "n_pairs": 174,
+      "paired_win_rate": 0.8621,
+      "sign_test_p": 1.8e-23,
+      "auc": 0.7987,
+      "median_flood": 0.04406,
+      "median_quiet": 0.00708
+    },
+    {
+      "measurement": "low_amp_frac_dark",
+      "n_pairs": 174,
+      "paired_win_rate": 0.8218,
+      "sign_test_p": 2.15e-18,
+      "auc": 0.8152,
+      "median_flood": 0.24294,
+      "median_quiet": 0.17949
+    },
+    {
+      "measurement": "low_amp_p05_db",
+      "n_pairs": 174,
+      "paired_win_rate": 0.8046,
+      "sign_test_p": 1.77e-16,
+      "auc": 0.787,
+      "median_flood": -7.30565,
+      "median_quiet": -6.04537
+    },
+    {
+      "measurement": "low_coh_frac_0.15",
+      "n_pairs": 174,
+      "paired_win_rate": 0.8678,
+      "sign_test_p": 2.83e-24,
+      "auc": 0.7648,
+      "median_flood": 0.06899,
+      "median_quiet": 0.01278
+    },
+    {
+      "measurement": "low_fusion_frac",
+      "n_pairs": 174,
+      "paired_win_rate": 0.8563,
+      "sign_test_p": 1.09e-22,
+      "auc": 0.7694,
+      "median_flood": 0.03231,
+      "median_quiet": 0.00519
+    }
+  ],
+  "note": "Paired: each quiet date is the same location, season and orbit as its flood event. 0.5 = no difference."
+}
