@@ -1,0 +1,7 @@
+event_set,n_events,buffer_km,tiles,gb,pct_of_full
+frozen_623,623,2.0,391,99.4,24.2
+frozen_623,623,5.0,571,148.0,35.4
+frozen_623,623,10.0,799,204.1,49.5
+prefilter_766,766,2.0,427,108.3,26.5
+prefilter_766,766,5.0,615,158.2,38.1
+prefilter_766,766,10.0,844,214.9,52.3
