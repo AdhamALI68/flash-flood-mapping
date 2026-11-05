@@ -1,0 +1,60 @@
+{
+ "features": [
+  "coh_drop",
+  "basin_hand",
+  "basin_slope",
+  "basin_twi",
+  "basin_spi",
+  "lc_class",
+  "lc_cropland",
+  "lc_water"
+ ],
+ "cutoff": 0.04817586857825776,
+ "n_events_total": 210,
+ "n_events_used": 194,
+ "n_train_events": 156,
+ "n_test_events": 38,
+ "n_train_px": 16656202,
+ "n_test_px": 4802146,
+ "auc_raw": 0.4135762446616339,
+ "auc_corrector": 0.8980685457527727,
+ "precision_raw": 0.00041352822660591516,
+ "recall_raw": 0.16490963855421686,
+ "precision_corrector": 0.01561524047470331,
+ "recall_corrector": 0.05647590361445783,
+ "flag_rate": 0.001000177837158637,
+ "importance": [
+  [
+   "lc_class",
+   0.23664411902427673
+  ],
+  [
+   "basin_slope",
+   0.23316843807697296
+  ],
+  [
+   "lc_water",
+   0.20606277883052826
+  ],
+  [
+   "coh_drop",
+   0.19211754202842712
+  ],
+  [
+   "basin_hand",
+   0.06433293223381042
+  ],
+  [
+   "basin_twi",
+   0.02745404653251171
+  ],
+  [
+   "basin_spi",
+   0.025710778310894966
+  ],
+  [
+   "lc_cropland",
+   0.014509434811770916
+  ]
+ ]
+}

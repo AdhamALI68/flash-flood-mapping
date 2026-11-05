@@ -1,0 +1,5 @@
+{
+ "excluded_lc_classes": [],
+ "min_sample": 300,
+ "fp_ratio_cutoff": 1.5
+}
