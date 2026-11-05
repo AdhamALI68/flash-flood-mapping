@@ -1,0 +1,30 @@
+# Environment and caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.zip
+
+# Data stays on disk, it is far too big for git (about 318 GB).
+# Only small tables, results and hand-check answers are tracked.
+/data/*
+!/data/*.csv
+!/data/*.json
+/data/*_state.json
+!/data/trace_v3/
+/data/trace_v3/*
+!/data/trace_v3/*.json
+
+# Big or generated outputs
+*.pt
+*.log
+*.tif
+*.tiff
+*.grib2
+*.grib2.gz
+
+# Raw radar test scene and large image pages, kept on the lab machine only
+/gate_b/983830_baseline/
+/gate_b/983830_coevent/
+/handoff/hand_label_pilot/
+/handoff/flood_check/
