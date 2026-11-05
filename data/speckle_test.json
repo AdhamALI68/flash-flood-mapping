@@ -1,0 +1,32 @@
+{
+ "1": {
+  "removed": 0.0,
+  "optical_agreement": 0.6153420795877838,
+  "events": 39
+ },
+ "2": {
+  "removed": 0.014826779971941281,
+  "optical_agreement": 0.6143220134328805,
+  "events": 39
+ },
+ "4": {
+  "removed": 0.047736684339558945,
+  "optical_agreement": 0.6127638935174172,
+  "events": 39
+ },
+ "8": {
+  "removed": 0.11039559033838103,
+  "optical_agreement": 0.6122470373692419,
+  "events": 39
+ },
+ "16": {
+  "removed": 0.1983297359438128,
+  "optical_agreement": 0.6096319898573027,
+  "events": 39
+ },
+ "32": {
+  "removed": 0.30148883522535475,
+  "optical_agreement": 0.6043475209733764,
+  "events": 39
+ }
+}
