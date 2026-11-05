@@ -1,0 +1,22 @@
+{
+  "generated": "reconcile_dataset.py",
+  "canonical_events": 617,
+  "excluded_events": 6,
+  "independent_observations_groups": 470,
+  "basins": 11,
+  "huc4_regions": 6,
+  "gauge": {
+    "positive": 76,
+    "negative": 85,
+    "usable": 161,
+    "usable_pct": 26.1,
+    "no_gauge_record": 191
+  },
+  "dem_vintage": {
+    "fully_clean_events": 162,
+    "fully_clean_pct": 26.3,
+    "any_pre_event_lidar": 247,
+    "any_pre_event_pct": 40.0
+  },
+  "note": "Percentages previously quoted used a denominator of 623. These use 617, the events that actually have SAR data."
+}
