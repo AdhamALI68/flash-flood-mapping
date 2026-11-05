@@ -1,0 +1,37 @@
+{
+ "terrain+basin+rain+rain_routed+soil+landcover": {
+  "auc": 0.8162,
+  "ap": 0.0059,
+  "recall": 0.0054,
+  "precision": 0.0029,
+  "lift": 1.998,
+  "accuracy": 0.9959,
+  "cutoff": 0.5466,
+  "flood_vs_quiet_auc": 0.7836
+ },
+ "direct_photo": {
+  "auc": 0.7874,
+  "ap": 0.0034,
+  "recall": 0.0641,
+  "precision": 0.0022,
+  "lift": 1.5218,
+  "accuracy": 0.9566,
+  "cutoff": 0.1841,
+  "flood_vs_quiet_auc": 0.3327
+ },
+ "direct_photo_v2": {
+  "auc": 0.7257,
+  "ap": 0.0027,
+  "recall": 0.0029,
+  "precision": 0.0006,
+  "lift": 0.3831,
+  "accuracy": 0.991,
+  "cutoff": 0.8433,
+  "flood_vs_quiet_auc": 0.6373
+ },
+ "_test": {
+  "tiles": 1437,
+  "pixels": 16324623,
+  "flood_rate": 0.0014611669745757682
+ }
+}
