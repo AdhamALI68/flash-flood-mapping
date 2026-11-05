@@ -1,0 +1,52 @@
+{
+  "generated_from": [
+    "data/basin_aridity.csv",
+    "data/sar_availability.csv",
+    "data/events.csv"
+  ],
+  "filters": {
+    "arid_mm": 250,
+    "min_lidar_frac": 0.9,
+    "min_events_per_basin": 20,
+    "max_interval_mismatch_days": 3.0,
+    "dst_guard_days": 0.041666666666666664
+  },
+  "steps": [
+    {
+      "step": "all events checked for SAR",
+      "events": 3779,
+      "basins": 68
+    },
+    {
+      "step": "SAR-usable (2 pre + 1 post, one orbit)",
+      "events": 3731,
+      "basins": 68
+    },
+    {
+      "step": "in arid basins with lidar",
+      "events": 766,
+      "basins": 11
+    },
+    {
+      "step": "baseline/co-event intervals within 3 d",
+      "events": 628,
+      "basins": 11
+    },
+    {
+      "step": "no scene within 1 h of the event (DST guard)",
+      "events": 623,
+      "basins": 11
+    }
+  ],
+  "final": {
+    "events": 623,
+    "basins": 11,
+    "huc4_regions": 6,
+    "date_range": [
+      "2015-04-25 22:44:00",
+      "2026-01-03 23:35:00"
+    ],
+    "hyp3_jobs_needed": 1246,
+    "hyp3_credits_needed": 1246
+  }
+}
