@@ -1,0 +1,237 @@
+{
+ "tag": "loro_1809_terrain+basin+rain+rain_routed+soil+landcover",
+ "groups": [
+  "terrain",
+  "basin",
+  "rain",
+  "rain_routed",
+  "soil",
+  "landcover"
+ ],
+ "channels": [
+  "elev_mean_10m",
+  "elev_min_10m",
+  "microrelief_10m",
+  "roughness_10m",
+  "slope_10m",
+  "basin_facc",
+  "basin_hand",
+  "basin_slope",
+  "basin_spi",
+  "basin_twi",
+  "rain_1h_peak",
+  "rain_24h",
+  "rain_ante48h",
+  "rain_ante72h",
+  "soil_bd",
+  "soil_clay",
+  "soil_ksat",
+  "soil_sand",
+  "lc_class",
+  "lc_cropland",
+  "lc_water",
+  "catchment_area_km2",
+  "rain_1h_over_ksat_upstream_mean",
+  "rain_1h_upstream_depth_mm",
+  "rain_1h_upstream_vol_m3",
+  "rain_24h_upstream_depth_mm",
+  "rain_24h_upstream_vol_m3",
+  "rain_cover_frac",
+  "runoff_1h_upstream_depth_mm",
+  "runoff_1h_upstream_vol_m3"
+ ],
+ "test_regions": [
+  "1809"
+ ],
+ "val_regions": [
+  "1810"
+ ],
+ "threshold": 0.15,
+ "rung": 10,
+ "params": 4374242,
+ "history": [
+  {
+   "epoch": 1,
+   "loss": 0.5282,
+   "val_auc": 0.5588,
+   "val_pixel_auc": 0.5961
+  },
+  {
+   "epoch": 2,
+   "loss": 0.4889,
+   "val_auc": 0.5684,
+   "val_pixel_auc": 0.595
+  },
+  {
+   "epoch": 3,
+   "loss": 0.4788,
+   "val_auc": 0.5618,
+   "val_pixel_auc": 0.5677
+  },
+  {
+   "epoch": 4,
+   "loss": 0.4731,
+   "val_auc": 0.5733,
+   "val_pixel_auc": 0.6113
+  },
+  {
+   "epoch": 5,
+   "loss": 0.4738,
+   "val_auc": 0.575,
+   "val_pixel_auc": 0.5982
+  },
+  {
+   "epoch": 6,
+   "loss": 0.468,
+   "val_auc": 0.5728,
+   "val_pixel_auc": 0.5157
+  },
+  {
+   "epoch": 7,
+   "loss": 0.4655,
+   "val_auc": 0.5758,
+   "val_pixel_auc": 0.571
+  },
+  {
+   "epoch": 8,
+   "loss": 0.4626,
+   "val_auc": 0.579,
+   "val_pixel_auc": 0.6205
+  },
+  {
+   "epoch": 9,
+   "loss": 0.4601,
+   "val_auc": 0.5711,
+   "val_pixel_auc": 0.5825
+  },
+  {
+   "epoch": 10,
+   "loss": 0.4559,
+   "val_auc": 0.569,
+   "val_pixel_auc": 0.5462
+  },
+  {
+   "epoch": 11,
+   "loss": 0.4571,
+   "val_auc": 0.5731,
+   "val_pixel_auc": 0.5584
+  },
+  {
+   "epoch": 12,
+   "loss": 0.4526,
+   "val_auc": 0.5779,
+   "val_pixel_auc": 0.5919
+  },
+  {
+   "epoch": 13,
+   "loss": 0.4529,
+   "val_auc": 0.5717,
+   "val_pixel_auc": 0.5978
+  },
+  {
+   "epoch": 14,
+   "loss": 0.4497,
+   "val_auc": 0.5891,
+   "val_pixel_auc": 0.6405
+  },
+  {
+   "epoch": 15,
+   "loss": 0.4493,
+   "val_auc": 0.5775,
+   "val_pixel_auc": 0.5737
+  },
+  {
+   "epoch": 16,
+   "loss": 0.4458,
+   "val_auc": 0.5856,
+   "val_pixel_auc": 0.5968
+  },
+  {
+   "epoch": 17,
+   "loss": 0.4449,
+   "val_auc": 0.5784,
+   "val_pixel_auc": 0.5807
+  },
+  {
+   "epoch": 18,
+   "loss": 0.4449,
+   "val_auc": 0.583,
+   "val_pixel_auc": 0.6029
+  },
+  {
+   "epoch": 19,
+   "loss": 0.443,
+   "val_auc": 0.5734,
+   "val_pixel_auc": 0.6051
+  },
+  {
+   "epoch": 20,
+   "loss": 0.439,
+   "val_auc": 0.5773,
+   "val_pixel_auc": 0.6292
+  },
+  {
+   "epoch": 21,
+   "loss": 0.4375,
+   "val_auc": 0.5766,
+   "val_pixel_auc": 0.6147
+  },
+  {
+   "epoch": 22,
+   "loss": 0.4376,
+   "val_auc": 0.5701,
+   "val_pixel_auc": 0.6038
+  },
+  {
+   "epoch": 23,
+   "loss": 0.4349,
+   "val_auc": 0.5679,
+   "val_pixel_auc": 0.623
+  },
+  {
+   "epoch": 24,
+   "loss": 0.4395,
+   "val_auc": 0.5751,
+   "val_pixel_auc": 0.5703
+  },
+  {
+   "epoch": 25,
+   "loss": 0.434,
+   "val_auc": 0.5842,
+   "val_pixel_auc": 0.5972
+  },
+  {
+   "epoch": 26,
+   "loss": 0.4344,
+   "val_auc": 0.5783,
+   "val_pixel_auc": 0.589
+  },
+  {
+   "epoch": 27,
+   "loss": 0.4313,
+   "val_auc": 0.5711,
+   "val_pixel_auc": 0.5604
+  },
+  {
+   "epoch": 28,
+   "loss": 0.4292,
+   "val_auc": 0.5776,
+   "val_pixel_auc": 0.5823
+  },
+  {
+   "epoch": 29,
+   "loss": 0.4291,
+   "val_auc": 0.5754,
+   "val_pixel_auc": 0.5756
+  }
+ ],
+ "test_tiles": 695,
+ "auc_model": 0.6681,
+ "auc_elevation": 0.5361,
+ "paired_diff": 0.132,
+ "win_rate": 0.646,
+ "wilcoxon_p": 1.4218919619442678e-23,
+ "quiet_day_mean_prob": 0.0439,
+ "flood_day_mean_prob": 0.0848,
+ "flood_vs_quiet_auc": 0.7415
+}

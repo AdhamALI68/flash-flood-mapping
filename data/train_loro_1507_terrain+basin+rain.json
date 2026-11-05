@@ -1,0 +1,244 @@
+{
+ "tag": "loro_1507_terrain+basin+rain",
+ "groups": [
+  "terrain",
+  "basin",
+  "rain"
+ ],
+ "channels": [
+  "elev_mean_10m",
+  "elev_min_10m",
+  "microrelief_10m",
+  "roughness_10m",
+  "slope_10m",
+  "basin_facc",
+  "basin_hand",
+  "basin_slope",
+  "basin_spi",
+  "basin_twi",
+  "rain_1h_peak",
+  "rain_24h",
+  "rain_ante48h",
+  "rain_ante72h",
+  "rain_24h_upstream_depth_mm",
+  "rain_24h_upstream_vol_m3"
+ ],
+ "test_regions": [
+  "1507"
+ ],
+ "val_regions": [
+  "1606"
+ ],
+ "threshold": 0.15,
+ "rung": 10,
+ "params": 4371218,
+ "history": [
+  {
+   "epoch": 1,
+   "loss": 0.5568,
+   "val_auc": 0.6265,
+   "val_pixel_auc": 0.703
+  },
+  {
+   "epoch": 2,
+   "loss": 0.5136,
+   "val_auc": 0.6438,
+   "val_pixel_auc": 0.7215
+  },
+  {
+   "epoch": 3,
+   "loss": 0.5087,
+   "val_auc": 0.6399,
+   "val_pixel_auc": 0.7332
+  },
+  {
+   "epoch": 4,
+   "loss": 0.5022,
+   "val_auc": 0.6548,
+   "val_pixel_auc": 0.7428
+  },
+  {
+   "epoch": 5,
+   "loss": 0.4987,
+   "val_auc": 0.6572,
+   "val_pixel_auc": 0.7548
+  },
+  {
+   "epoch": 6,
+   "loss": 0.4961,
+   "val_auc": 0.6773,
+   "val_pixel_auc": 0.7783
+  },
+  {
+   "epoch": 7,
+   "loss": 0.4938,
+   "val_auc": 0.6538,
+   "val_pixel_auc": 0.748
+  },
+  {
+   "epoch": 8,
+   "loss": 0.4898,
+   "val_auc": 0.6726,
+   "val_pixel_auc": 0.757
+  },
+  {
+   "epoch": 9,
+   "loss": 0.4874,
+   "val_auc": 0.6746,
+   "val_pixel_auc": 0.7679
+  },
+  {
+   "epoch": 10,
+   "loss": 0.4875,
+   "val_auc": 0.6732,
+   "val_pixel_auc": 0.7682
+  },
+  {
+   "epoch": 11,
+   "loss": 0.4847,
+   "val_auc": 0.6718,
+   "val_pixel_auc": 0.7583
+  },
+  {
+   "epoch": 12,
+   "loss": 0.4866,
+   "val_auc": 0.6604,
+   "val_pixel_auc": 0.7401
+  },
+  {
+   "epoch": 13,
+   "loss": 0.4828,
+   "val_auc": 0.666,
+   "val_pixel_auc": 0.7573
+  },
+  {
+   "epoch": 14,
+   "loss": 0.4804,
+   "val_auc": 0.6725,
+   "val_pixel_auc": 0.7166
+  },
+  {
+   "epoch": 15,
+   "loss": 0.4775,
+   "val_auc": 0.6692,
+   "val_pixel_auc": 0.7477
+  },
+  {
+   "epoch": 16,
+   "loss": 0.4779,
+   "val_auc": 0.6658,
+   "val_pixel_auc": 0.7505
+  },
+  {
+   "epoch": 17,
+   "loss": 0.4758,
+   "val_auc": 0.6758,
+   "val_pixel_auc": 0.7423
+  },
+  {
+   "epoch": 18,
+   "loss": 0.4752,
+   "val_auc": 0.683,
+   "val_pixel_auc": 0.7557
+  },
+  {
+   "epoch": 19,
+   "loss": 0.4732,
+   "val_auc": 0.6667,
+   "val_pixel_auc": 0.7474
+  },
+  {
+   "epoch": 20,
+   "loss": 0.4718,
+   "val_auc": 0.6547,
+   "val_pixel_auc": 0.7059
+  },
+  {
+   "epoch": 21,
+   "loss": 0.4703,
+   "val_auc": 0.6666,
+   "val_pixel_auc": 0.7478
+  },
+  {
+   "epoch": 22,
+   "loss": 0.471,
+   "val_auc": 0.6603,
+   "val_pixel_auc": 0.7344
+  },
+  {
+   "epoch": 23,
+   "loss": 0.4678,
+   "val_auc": 0.6643,
+   "val_pixel_auc": 0.7421
+  },
+  {
+   "epoch": 24,
+   "loss": 0.4671,
+   "val_auc": 0.6703,
+   "val_pixel_auc": 0.7526
+  },
+  {
+   "epoch": 25,
+   "loss": 0.4674,
+   "val_auc": 0.6792,
+   "val_pixel_auc": 0.7231
+  },
+  {
+   "epoch": 26,
+   "loss": 0.4662,
+   "val_auc": 0.6723,
+   "val_pixel_auc": 0.7198
+  },
+  {
+   "epoch": 27,
+   "loss": 0.4644,
+   "val_auc": 0.6751,
+   "val_pixel_auc": 0.7687
+  },
+  {
+   "epoch": 28,
+   "loss": 0.4606,
+   "val_auc": 0.6519,
+   "val_pixel_auc": 0.6773
+  },
+  {
+   "epoch": 29,
+   "loss": 0.4608,
+   "val_auc": 0.673,
+   "val_pixel_auc": 0.7497
+  },
+  {
+   "epoch": 30,
+   "loss": 0.4612,
+   "val_auc": 0.6679,
+   "val_pixel_auc": 0.7332
+  },
+  {
+   "epoch": 31,
+   "loss": 0.4589,
+   "val_auc": 0.6726,
+   "val_pixel_auc": 0.7675
+  },
+  {
+   "epoch": 32,
+   "loss": 0.4561,
+   "val_auc": 0.6702,
+   "val_pixel_auc": 0.7491
+  },
+  {
+   "epoch": 33,
+   "loss": 0.4548,
+   "val_auc": 0.6615,
+   "val_pixel_auc": 0.7604
+  }
+ ],
+ "test_tiles": 1063,
+ "auc_model": 0.6866,
+ "auc_elevation": 0.5594,
+ "paired_diff": 0.1272,
+ "win_rate": 0.7366,
+ "wilcoxon_p": 5.756287065120368e-67,
+ "quiet_day_mean_prob": 0.0302,
+ "flood_day_mean_prob": 0.0961,
+ "flood_vs_quiet_auc": 0.7416
+}

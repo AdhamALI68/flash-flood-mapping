@@ -1,0 +1,138 @@
+{
+ "tag": "loro_1507_terrain",
+ "groups": [
+  "terrain"
+ ],
+ "channels": [
+  "elev_mean_10m",
+  "elev_min_10m",
+  "microrelief_10m",
+  "roughness_10m",
+  "slope_10m"
+ ],
+ "test_regions": [
+  "1507"
+ ],
+ "val_regions": [
+  "1606"
+ ],
+ "threshold": 0.15,
+ "rung": 10,
+ "params": 4368842,
+ "history": [
+  {
+   "epoch": 1,
+   "loss": 0.5609,
+   "val_auc": 0.588
+  },
+  {
+   "epoch": 2,
+   "loss": 0.539,
+   "val_auc": 0.6764
+  },
+  {
+   "epoch": 3,
+   "loss": 0.5331,
+   "val_auc": 0.6728
+  },
+  {
+   "epoch": 4,
+   "loss": 0.5323,
+   "val_auc": 0.6502
+  },
+  {
+   "epoch": 5,
+   "loss": 0.5286,
+   "val_auc": 0.6828
+  },
+  {
+   "epoch": 6,
+   "loss": 0.5253,
+   "val_auc": 0.7026
+  },
+  {
+   "epoch": 7,
+   "loss": 0.5242,
+   "val_auc": 0.6683
+  },
+  {
+   "epoch": 8,
+   "loss": 0.5232,
+   "val_auc": 0.683
+  },
+  {
+   "epoch": 9,
+   "loss": 0.5211,
+   "val_auc": 0.6741
+  },
+  {
+   "epoch": 10,
+   "loss": 0.5235,
+   "val_auc": 0.6988
+  },
+  {
+   "epoch": 11,
+   "loss": 0.52,
+   "val_auc": 0.6617
+  },
+  {
+   "epoch": 12,
+   "loss": 0.5219,
+   "val_auc": 0.6761
+  },
+  {
+   "epoch": 13,
+   "loss": 0.5209,
+   "val_auc": 0.6875
+  },
+  {
+   "epoch": 14,
+   "loss": 0.5197,
+   "val_auc": 0.6947
+  },
+  {
+   "epoch": 15,
+   "loss": 0.5186,
+   "val_auc": 0.6998
+  },
+  {
+   "epoch": 16,
+   "loss": 0.5194,
+   "val_auc": 0.6812
+  },
+  {
+   "epoch": 17,
+   "loss": 0.5175,
+   "val_auc": 0.6958
+  },
+  {
+   "epoch": 18,
+   "loss": 0.5175,
+   "val_auc": 0.6924
+  },
+  {
+   "epoch": 19,
+   "loss": 0.5159,
+   "val_auc": 0.6836
+  },
+  {
+   "epoch": 20,
+   "loss": 0.5159,
+   "val_auc": 0.6823
+  },
+  {
+   "epoch": 21,
+   "loss": 0.5156,
+   "val_auc": 0.6663
+  }
+ ],
+ "test_tiles": 1063,
+ "auc_model": 0.6354,
+ "auc_elevation": 0.5594,
+ "paired_diff": 0.0759,
+ "win_rate": 0.6246,
+ "wilcoxon_p": 2.4354214638542696e-24,
+ "quiet_day_mean_prob": 0.0981,
+ "flood_day_mean_prob": 0.0991,
+ "flood_vs_quiet_auc": 0.5089
+}

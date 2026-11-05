@@ -1,0 +1,197 @@
+{
+ "rows": [
+  {
+   "config": "terrain",
+   "test_region": "1501",
+   "tiles": 1693,
+   "model": 0.609,
+   "elevation": 0.5366,
+   "gain": 0.0724,
+   "p": 2.928314934435875e-31,
+   "flood_vs_quiet": 0.4649
+  },
+  {
+   "config": "terrain",
+   "test_region": "1503",
+   "tiles": 1730,
+   "model": 0.62,
+   "elevation": 0.5399,
+   "gain": 0.0801,
+   "p": 1.4891925524832142e-34,
+   "flood_vs_quiet": 0.4576
+  },
+  {
+   "config": "terrain",
+   "test_region": "1507",
+   "tiles": 1063,
+   "model": 0.6354,
+   "elevation": 0.5594,
+   "gain": 0.0759,
+   "p": 2.4354214638542696e-24,
+   "flood_vs_quiet": 0.5089
+  },
+  {
+   "config": "terrain",
+   "test_region": "1606",
+   "tiles": 466,
+   "model": 0.6995,
+   "elevation": 0.4858,
+   "gain": 0.2137,
+   "p": 3.3715553828899957e-32,
+   "flood_vs_quiet": 0.539
+  },
+  {
+   "config": "terrain",
+   "test_region": "1809",
+   "tiles": 695,
+   "model": 0.6683,
+   "elevation": 0.5361,
+   "gain": 0.1322,
+   "p": 1.622957320849794e-28,
+   "flood_vs_quiet": 0.5295
+  },
+  {
+   "config": "terrain",
+   "test_region": "1810",
+   "tiles": 425,
+   "model": 0.5675,
+   "elevation": 0.5311,
+   "gain": 0.0364,
+   "p": 0.03247163350948571,
+   "flood_vs_quiet": 0.5302
+  },
+  {
+   "config": "terrain,basin,rain",
+   "test_region": "1501",
+   "tiles": 1693,
+   "model": 0.6154,
+   "elevation": 0.5366,
+   "gain": 0.0788,
+   "p": 8.08226659458383e-38,
+   "flood_vs_quiet": 0.7766
+  },
+  {
+   "config": "terrain,basin,rain",
+   "test_region": "1503",
+   "tiles": 1730,
+   "model": 0.6371,
+   "elevation": 0.5399,
+   "gain": 0.0972,
+   "p": 9.517400973715787e-63,
+   "flood_vs_quiet": 0.8673
+  },
+  {
+   "config": "terrain,basin,rain",
+   "test_region": "1507",
+   "tiles": 1063,
+   "model": 0.6866,
+   "elevation": 0.5594,
+   "gain": 0.1272,
+   "p": 5.756287065120368e-67,
+   "flood_vs_quiet": 0.7416
+  },
+  {
+   "config": "terrain,basin,rain",
+   "test_region": "1606",
+   "tiles": 466,
+   "model": 0.6532,
+   "elevation": 0.4858,
+   "gain": 0.1674,
+   "p": 3.3780250912405717e-19,
+   "flood_vs_quiet": 0.8407
+  },
+  {
+   "config": "terrain,basin,rain",
+   "test_region": "1809",
+   "tiles": 695,
+   "model": 0.6719,
+   "elevation": 0.5361,
+   "gain": 0.1359,
+   "p": 1.1173254481950286e-27,
+   "flood_vs_quiet": 0.7664
+  },
+  {
+   "config": "terrain,basin,rain",
+   "test_region": "1810",
+   "tiles": 425,
+   "model": 0.5721,
+   "elevation": 0.5311,
+   "gain": 0.041,
+   "p": 0.00024490101547605295,
+   "flood_vs_quiet": 0.7886
+  },
+  {
+   "config": "terrain,basin,rain,rain_routed,soil,landcover",
+   "test_region": "1501",
+   "tiles": 1693,
+   "model": 0.5992,
+   "elevation": 0.5366,
+   "gain": 0.0626,
+   "p": 3.498873741546245e-21,
+   "flood_vs_quiet": 0.6897
+  },
+  {
+   "config": "terrain,basin,rain,rain_routed,soil,landcover",
+   "test_region": "1503",
+   "tiles": 1730,
+   "model": 0.631,
+   "elevation": 0.5399,
+   "gain": 0.0911,
+   "p": 2.352528410623611e-58,
+   "flood_vs_quiet": 0.7759
+  },
+  {
+   "config": "terrain,basin,rain,rain_routed,soil,landcover",
+   "test_region": "1507",
+   "tiles": 1063,
+   "model": 0.683,
+   "elevation": 0.5594,
+   "gain": 0.1236,
+   "p": 4.608225462740979e-60,
+   "flood_vs_quiet": 0.8654
+  },
+  {
+   "config": "terrain,basin,rain,rain_routed,soil,landcover",
+   "test_region": "1606",
+   "tiles": 466,
+   "model": 0.6555,
+   "elevation": 0.4858,
+   "gain": 0.1697,
+   "p": 4.42815675258556e-19,
+   "flood_vs_quiet": 0.8278
+  },
+  {
+   "config": "terrain,basin,rain,rain_routed,soil,landcover",
+   "test_region": "1809",
+   "tiles": 695,
+   "model": 0.6681,
+   "elevation": 0.5361,
+   "gain": 0.132,
+   "p": 1.4218919619442678e-23,
+   "flood_vs_quiet": 0.7415
+  },
+  {
+   "config": "terrain,basin,rain,rain_routed,soil,landcover",
+   "test_region": "1810",
+   "tiles": 425,
+   "model": 0.5605,
+   "elevation": 0.5311,
+   "gain": 0.0294,
+   "p": 0.13891579450995242,
+   "flood_vs_quiet": 0.6462
+  }
+ ],
+ "regions": [
+  "1501",
+  "1503",
+  "1507",
+  "1606",
+  "1809",
+  "1810"
+ ],
+ "configs": [
+  "terrain",
+  "terrain,basin,rain",
+  "terrain,basin,rain,rain_routed,soil,landcover"
+ ]
+}
