@@ -1,0 +1,31 @@
+huc8,basin_name,huc4,sar_usable_events,lidar_coverage_frac,ppt_mm_mean,ppt_mm_min,ppt_mm_max,aridity_band
+18100204,Salton Sea,1810,71,0.831,85.0,57.7,390.0,arid
+15030104,Imperial Reservoir,1503,67,0.993,114.6,79.1,252.4,arid
+18090203,Death Valley-Lower Amargosa,1809,65,1.0,126.9,46.3,452.3,arid
+18100100,Southern Mojave,1810,171,0.0,130.8,82.1,815.6,arid
+15030101,Havasu-Mohave Lakes,1503,100,1.0,150.6,106.1,240.9,arid
+18090208,Mojave,1809,67,1.0,164.3,84.4,886.4,arid
+15070101,Lower Gila-Painted Rock Reservoir,1507,77,0.932,183.2,146.8,293.6,arid
+16060015,Ivanpah-Pahrump Valleys,1606,52,1.0,187.5,113.4,613.4,arid
+15070104,Centennial Wash,1507,46,1.0,193.8,153.4,356.2,arid
+15010015,Las Vegas Wash,1501,59,0.902,196.4,99.1,717.4,arid
+15030103,Sacramento Wash,1503,78,1.0,213.7,126.0,446.7,arid
+14070006,Lower Lake Powell,1407,59,0.632,228.2,157.4,549.5,arid
+18100201,Whitewater River,1810,47,0.933,238.7,68.1,1189.3,arid
+15010007,Red Lake,1501,108,0.998,249.9,170.0,406.1,arid
+13020203,Rio Grande-Albuquerque,1302,59,0.863,284.7,209.1,616.0,semi-arid
+15050100,Middle Gila,1505,64,0.948,302.7,188.8,643.4,semi-arid
+15060106,Lower Salt,1506,77,1.0,308.0,197.6,626.5,semi-arid
+14070007,Paria,1407,74,1.0,308.6,185.1,537.6,semi-arid
+15030201,Big Sandy,1503,83,0.877,317.0,191.3,536.3,semi-arid
+15070102,Agua Fria,1507,249,1.0,344.3,189.9,659.2,semi-arid
+14070003,Fremont,1407,79,1.0,353.2,162.4,884.3,semi-arid
+18070304,San Diego,1807,48,0.871,385.5,236.1,750.3,semi-arid
+15050301,Upper Santa Cruz,1505,111,0.82,400.4,272.1,814.7,semi-arid
+13060008,Rio Hondo,1306,82,0.999,409.6,300.5,922.6,semi-arid
+15050302,Rillito,1505,62,1.0,412.0,275.1,859.5,semi-arid
+15010008,Upper Virgin,1501,98,0.999,425.1,202.9,829.0,semi-arid
+18070203,Santa Ana,1807,86,0.999,464.9,229.7,1182.8,semi-arid
+15060203,Lower Verde,1506,68,1.0,469.3,246.8,777.1,semi-arid
+15060202,Upper Verde,1506,109,0.999,481.3,300.0,893.0,semi-arid
+15060103,Upper Salt,1506,90,0.561,504.4,357.8,794.1,sub-humid

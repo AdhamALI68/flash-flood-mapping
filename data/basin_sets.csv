@@ -1,0 +1,23 @@
+huc8,basin_name,huc4,ppt_mm_mean,aridity_band,sar_usable_events,lidar_coverage_frac,set
+15050100,Middle Gila,1505,302.7,semi-arid,64,0.948,INCLUSIVE_ONLY
+15060106,Lower Salt,1506,308.0,semi-arid,77,1.0,INCLUSIVE_ONLY
+14070007,Paria,1407,308.6,semi-arid,74,1.0,INCLUSIVE_ONLY
+15070102,Agua Fria,1507,344.3,semi-arid,249,1.0,INCLUSIVE_ONLY
+14070003,Fremont,1407,353.2,semi-arid,79,1.0,INCLUSIVE_ONLY
+13060008,Rio Hondo,1306,409.6,semi-arid,82,0.999,INCLUSIVE_ONLY
+15050302,Rillito,1505,412.0,semi-arid,62,1.0,INCLUSIVE_ONLY
+15010008,Upper Virgin,1501,425.1,semi-arid,98,0.999,INCLUSIVE_ONLY
+18070203,Santa Ana,1807,464.9,semi-arid,86,0.999,INCLUSIVE_ONLY
+15060203,Lower Verde,1506,469.3,semi-arid,68,1.0,INCLUSIVE_ONLY
+15060202,Upper Verde,1506,481.3,semi-arid,109,0.999,INCLUSIVE_ONLY
+15030104,Imperial Reservoir,1503,114.6,arid,67,0.993,STRICT
+18090203,Death Valley-Lower Amargosa,1809,126.9,arid,65,1.0,STRICT
+15030101,Havasu-Mohave Lakes,1503,150.6,arid,100,1.0,STRICT
+18090208,Mojave,1809,164.3,arid,67,1.0,STRICT
+15070101,Lower Gila-Painted Rock Reservoir,1507,183.2,arid,77,0.932,STRICT
+16060015,Ivanpah-Pahrump Valleys,1606,187.5,arid,52,1.0,STRICT
+15070104,Centennial Wash,1507,193.8,arid,46,1.0,STRICT
+15010015,Las Vegas Wash,1501,196.4,arid,59,0.902,STRICT
+15030103,Sacramento Wash,1503,213.7,arid,78,1.0,STRICT
+18100201,Whitewater River,1810,238.7,arid,47,0.933,STRICT
+15010007,Red Lake,1501,249.9,arid,108,0.998,STRICT
