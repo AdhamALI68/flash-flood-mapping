@@ -1,0 +1,13 @@
+{
+ "tags": [
+  "terrain+basin+rain+rain_routed+soil+landcover",
+  "headline_seed1",
+  "headline_seed2"
+ ],
+ "auc": 0.7055620765361545,
+ "ap": 0.10463648383713986,
+ "recall": 0.279138330080974,
+ "precision": 0.10003917922856129,
+ "accuracy": 0.830515884024388,
+ "cutoff": 0.25550564371339424
+}
