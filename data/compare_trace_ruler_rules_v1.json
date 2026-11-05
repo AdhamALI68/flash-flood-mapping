@@ -1,0 +1,27 @@
+{
+ "terrain+basin+rain+rain_routed+soil+landcover": {
+  "auc": 0.9271,
+  "ap": 0.0928,
+  "recall": 0.0786,
+  "precision": 0.0875,
+  "lift": 7.4477,
+  "accuracy": 0.9795,
+  "cutoff": 0.47,
+  "flood_vs_quiet_auc": 0.8665
+ },
+ "trace_rules_v1": {
+  "auc": 0.8336,
+  "ap": 0.064,
+  "recall": 0.4503,
+  "precision": 0.0746,
+  "lift": 6.3489,
+  "accuracy": 0.9279,
+  "cutoff": 0.0792,
+  "flood_vs_quiet_auc": 0.6813
+ },
+ "_test": {
+  "tiles": 657,
+  "pixels": 8041648,
+  "flood_rate": 0.011752939198532441
+ }
+}
